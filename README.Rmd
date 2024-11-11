@@ -1,4 +1,20 @@
-# Overview
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  eval = FALSE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+library(knitr)
+```
+## About
 
 This repository contains R code and data to reproduce the data processing, analysis, and visualization for the study *"Many non-native plant species are threatened in parts of their native range."*
 

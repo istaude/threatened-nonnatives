@@ -1,0 +1,1030 @@
+region_id,code,name,island,OBJIDsic,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_ISO,country
+1,ABW,Aruba,1,508,ARU-OO,Aruba,ARU,81,8,Southern America,ABW,Aruba
+2,AGO,Angola,0,509,ANG-OO,Angola,ANG,26,2,Africa,AGO,Angola
+3,AIA,Anguilla,1,510,LEE-AG,Anguilla,LEE,81,8,Southern America,AIA,Anguilla
+4,ALB,Albania,0,511,ALB-OO,Albania,ALB,13,1,Europe,ALB,Albania
+5,ARG.BA,Buenos Aires,0,512,AGE-BA,Buenos Aires,AGE,85,8,Southern America,ARG,Argentina
+6,ARG.CA,Catamarca,0,513,AGW-CA,Catamarca,AGW,85,8,Southern America,ARG,Argentina
+7,ARG.CHA,Chaco,0,514,AGE-CH,Chaco,AGE,85,8,Southern America,ARG,Argentina
+8,ARG.CHU,Chubut,0,515,AGS-CB,Chubut,AGS,85,8,Southern America,ARG,Argentina
+9,ARG.CO,Córdoba,0,516,AGE-CD,C¢rdoba,AGE,85,8,Southern America,ARG,Argentina
+10,ARG.COR,Corrientes,0,517,AGE-CN,Corrientes,AGE,85,8,Southern America,ARG,Argentina
+11,ARG.DF,Ciudad de Buenos Aires,0,518,AGE-DF,Argentina Distrito Federal,AGE,85,8,Southern America,ARG,Argentina
+12,ARG.ER,Entre Ríos,0,519,AGE-ER,Entre R¡os,AGE,85,8,Southern America,ARG,Argentina
+13,ARG.FO,Formosa,0,520,AGE-FO,Formosa,AGE,85,8,Southern America,ARG,Argentina
+14,ARG.JU,Jujuy,0,521,AGW-JU,Jujuy,AGW,85,8,Southern America,ARG,Argentina
+15,ARG.LP,La Pampa,0,522,AGE-LP,La Pampa,AGE,85,8,Southern America,ARG,Argentina
+16,ARG.LR,La Rioja,0,523,AGW-LR,La Rioja,AGW,85,8,Southern America,ARG,Argentina
+17,ARG.ME,Mendoza,0,524,AGW-ME,Mendoza,AGW,85,8,Southern America,ARG,Argentina
+18,ARG.MI,Misiones,0,525,AGE-MI,Misiones,AGE,85,8,Southern America,ARG,Argentina
+19,ARG.NE,Neuquén,0,526,AGS-NE,Neuqu‚n,AGS,85,8,Southern America,ARG,Argentina
+20,ARG.RN,Río Negro,0,527,AGS-RN,Rio Negro,AGS,85,8,Southern America,ARG,Argentina
+21,ARG.SA,Salta,0,528,AGW-SA,Salta,AGW,85,8,Southern America,ARG,Argentina
+22,ARG.SC,Santa Cruz,0,529,AGS-SC,Santa Cruz,AGS,85,8,Southern America,ARG,Argentina
+23,ARG.SE,Santiago del Estero,0,530,AGW-SE,Santiago del Estero,AGW,85,8,Southern America,ARG,Argentina
+24,ARG.SF,Santa Fe,0,531,AGE-SF,Santa F‚,AGE,85,8,Southern America,ARG,Argentina
+25,ARG.SJ,San Juan,0,532,AGW-SJ,San Juan,AGW,85,8,Southern America,ARG,Argentina
+26,ARG.SL,San Luis,0,533,AGW-SL,San Luis,AGW,85,8,Southern America,ARG,Argentina
+27,ARG.TF,Tierra del Fuego,1,534,AGS-TF,Tierra del Fuego (Argentina),AGS,85,8,Southern America,ARG,Argentina
+28,ARG.TU,Tucumán,0,535,AGW-TU,Tucuman,AGW,85,8,Southern America,ARG,Argentina
+29,ASM.AUU,Aunuu,1,536,SAM-AS,American Samoa,SAM,60,6,Pacific,ASM,American Samoa
+30,ASM.OFU,Ofu,1,537,SAM-AS,American Samoa,SAM,60,6,Pacific,ASM,American Samoa
+31,ASM.OLO,Olosega,1,538,SAM-AS,American Samoa,SAM,60,6,Pacific,ASM,American Samoa
+32,ASM.SWA,Swains,1,539,TOK-SW,Swains I.,TOK,60,6,Pacific,ASM,American Samoa
+33,ASM.TAU,Tau,1,540,SAM-AS,American Samoa,SAM,60,6,Pacific,ASM,American Samoa
+34,ASM.TUA,Tutuila,1,541,SAM-AS,American Samoa,SAM,60,6,Pacific,ASM,American Samoa
+35,ATA,Antarctica,0,542,ANT-OO,Antarctica,ANT,91,9,Antarctic,ATA,Antarctica
+36,ATG.AN,Antigua,1,543,LEE-AB,Antigua-Barbuda,LEE,81,8,Southern America,ATG,Antigua and Barbuda
+37,ATG.BA,Barbuda,1,544,LEE-AB,Antigua-Barbuda,LEE,81,8,Southern America,ATG,Antigua and Barbuda
+38,AUS.AI,"Alexander Island (Australia, not Antarctica)",1,545,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+39,AUS.AR,Ashmore Reef,1,546,WAU-AC,Ashmore-Cartier Is.,WAU,50,5,Australasia,AUS,Australia
+40,AUS.BI,Beacon Island,1,547,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+41,AUS.CSIT,Coral Sea Islands Territory,1,548,QLD-CS,Coral Sea Is. Territory,QLD,50,5,Australasia,AUS,Australia
+42,AUS.EWI,East Wallabi Island,1,549,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+43,AUS.GI,Gilbert Island,1,550,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+44,AUS.GUI,Gun Island,1,551,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+45,AUS.HI,Helms Island,1,552,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+46,AUS.HUI,Hummock Island,1,553,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+47,AUS.LEI,Leo Island,1,554,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+48,AUS.LI,"Long Island, Houtman Abrolhos",1,555,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+49,AUS.LRI,Little Rat Island,1,556,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+50,AUS.MI,Morley Island,1,557,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+51,AUS.MII,Middle Island,1,558,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+52,AUS.MUI,Murray Island,1,559,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+53,AUS.NEI,Newman Island,1,560,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+54,AUS.NI,"North Island, Houtman Abrolhos",1,561,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+55,AUS.NSW.CC,Central Coast,0,562,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+56,AUS.NSW.CT,Central Tablelands,0,563,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+57,AUS.NSW.CWS,Central Western Slopes,0,320,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+58,AUS.NSW.LHI,Lord Howe Island,1,564,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+59,AUS.NSW.NC,North Coast,0,565,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+60,AUS.NSW.NFWP,North Far Western Plains,0,566,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+61,AUS.NSW.NT,Northern Tablelands,0,567,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+62,AUS.NSW.NWP,North Western Plains,0,568,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+63,AUS.NSW.NWS,North Western Slopes,0,569,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+64,AUS.NSW.SC,South Coast,0,570,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+65,AUS.NSW.SFWP,South Far Western Plains,0,571,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+66,AUS.NSW.ST,Southern Tablelands,0,572,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+67,AUS.NSW.SWP,South Western Plains,0,573,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+68,AUS.NSW.SWS,South Western Slopes,0,574,NSW-NS,New South Wales,NSW,50,5,Australasia,AUS,Australia
+69,AUS.NT,Northern Territory,0,575,NTA-OO,Northern Territory,NTA,50,5,Australasia,AUS,Australia
+70,AUS.PEI,Pelsaert Island,1,576,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+71,AUS.PI,Pigeon Island,1,577,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+72,AUS.QNS.BK,Burke,0,578,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+73,AUS.QNS.BN,Burnett,0,579,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+74,AUS.QNS.CO,Cook,0,580,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+75,AUS.QNS.DD,Darling Downs,0,581,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+76,AUS.QNS.GN,Gregory North,0,582,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+77,AUS.QNS.GS,Gregory South,0,583,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+78,AUS.QNS.LE,Leichhardt,0,584,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+79,AUS.QNS.MA,Maranoa,0,585,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+80,AUS.QNS.MI,Mitchell,0,586,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+81,AUS.QNS.MO,Moreton,0,587,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+82,AUS.QNS.NK,North Kennedy,0,588,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+83,AUS.QNS.PC,Port Curtis,0,589,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+84,AUS.QNS.SK,South Kennedy,0,590,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+85,AUS.QNS.WA,Warrego,0,591,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+86,AUS.QNS.WB,Wide Bay,0,592,QLD-QU,Queensland,QLD,50,5,Australasia,AUS,Australia
+87,AUS.RI,Rat Island,1,593,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+88,AUS.SA.EA,Eastern,0,594,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+89,AUS.SA.EP,Eyre Peninsula,0,595,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+90,AUS.SA.FR,Flinders Ranges,0,596,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+91,AUS.SA.GT,Gairdner-Torrens,0,597,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+92,AUS.SA.KI,Kangaroo Island,1,598,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+93,AUS.SA.LE,Lake Eyre,0,599,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+94,AUS.SA.MU,Murray,0,600,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+95,AUS.SA.NL,Northern Lofty,0,601,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+96,AUS.SA.NU,Nullarbor,0,602,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+97,AUS.SA.NW,North-Western,0,603,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+98,AUS.SA.SE,South-Eastern,0,604,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+99,AUS.SA.SL,Southern Lofty,0,605,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+100,AUS.SA.YP,Yorke Peninsula,0,606,SOA-OO,South Australia,SOA,50,5,Australasia,AUS,Australia
+101,AUS.SEI,Serventy Island,1,607,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+102,AUS.SI,Seagull Island,1,608,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+103,AUS.SUI,Suomi Island,1,609,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+104,AUS.TAS,Tasmania,1,610,TAS-OO,Tasmania,TAS,50,5,Australasia,AUS,Australia
+105,AUS.TAS.MI,Macquarie Island,1,611,TAS-OO,Tasmania,TAS,50,5,Australasia,AUS,Australia
+106,AUS.UMI,Uncle Margie Island,1,612,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+107,AUS.VIC,Australia Victoria,0,484,VIC-OO,Victoria,VIC,50,5,Australasia,AUS,Australia
+108,AUS.WA.AW,Avon Wheatbelt,0,613,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+109,AUS.WA.CAR,Carnarvon,0,614,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+110,AUS.WA.CK,Central Kimberley,0,615,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+111,AUS.WA.COO,Coolgardie,0,616,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+112,AUS.WA.CR,Central Ranges,0,617,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+113,AUS.WA.DL,Dampierland,0,618,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+114,AUS.WA.ESP,Esperance Plains,0,619,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+115,AUS.WA.GAS,Gascoyne,0,620,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+116,AUS.WA.GD,Gibson Desert,0,621,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+117,AUS.WA.GSD,Great Sandy Desert,0,622,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+118,AUS.WA.GSP,Geraldton Sandplains,0,623,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+119,AUS.WA.GVD,Great Victoria Desert,0,624,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+120,AUS.WA.HAM,Hampton,0,625,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+121,AUS.WA.JF,Jarrah Forest,0,626,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+122,AUS.WA.LSD,Little Sandy Desert,0,627,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+123,AUS.WA.MAL,Mallee,0,628,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+124,AUS.WA.MUR,Murchison,0,629,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+125,AUS.WA.NK,Northern Kimberley,0,630,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+126,AUS.WA.NUL,Nullarbor,0,631,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+127,AUS.WA.OVP,Ord Victoria Plain,0,632,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+128,AUS.WA.PIL,Pilbara,0,633,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+129,AUS.WA.SWA,Swan Coastal Plain,0,634,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+130,AUS.WA.TAN,Tanami,0,635,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+131,AUS.WA.VB,Victoria Bonaparte,0,636,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+132,AUS.WA.WAR,Warren,0,637,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+133,AUS.WA.YAL,Yalgoo,0,638,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+134,AUS.WHI,White Island,1,639,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+135,AUS.WI,Wooded Island,1,640,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+136,AUS.WWI,West Wallabi Island,1,641,WAU-WA,Western Australia,WAU,50,5,Australasia,AUS,Australia
+138,BDI,Burundi,0,643,BUR-OO,Burundi,BUR,23,2,Africa,BDI,Burundi
+139,BEL,Belgium,0,644,BGM-BE,Belgium,BGM,11,1,Europe,BEL,Belgium
+140,BEN,Benin,0,645,BEN-OO,Benin,BEN,22,2,Africa,BEN,Benin
+141,BES.BON,Bonaire,1,646,NLA-BO,Bonaire,NLA,81,8,Southern America,ANT,Netherlands Antilles
+142,BES.EUS,Sint Eustatius,1,647,LEE-NL,Netherlands Leeward Is.,LEE,81,8,Southern America,ANT,Netherlands Antilles
+143,BES.SAB,Saba,1,648,LEE-NL,Netherlands Leeward Is.,LEE,81,8,Southern America,ANT,Netherlands Antilles
+144,BFA,Burkina Faso,0,649,BKN-OO,Burkina,BKN,22,2,Africa,BFA,Burkina Faso
+145,BGR,Bulgaria,0,650,BUL-OO,Bulgaria,BUL,13,1,Europe,BGR,Bulgaria
+146,BHS,Bahamas,1,651,BAH-OO,Bahamas,BAH,81,8,Southern America,BHS,Bahamas (the)
+147,BLM,Saint Barthelemy,1,652,LEE-SM,St.Martin-St.Barth‚l‚my,LEE,81,8,Southern America,GLP,Guadeloupe
+148,BLR,Belarus,0,653,BLR-OO,Belarus,BLR,14,1,Europe,BLR,Belarus
+149,BLZ,Belize,0,506,BLZ-OO,Belize,BLZ,80,8,Southern America,BLZ,Belize
+150,BMU,Bermuda,1,661,BER-OO,Bermuda,BER,81,8,Southern America,BMU,Bermuda
+151,BOL,Bolivia,0,662,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+152,BRA.AC,Acre,0,663,BZN-AC,Acre,BZN,84,8,Southern America,BRA,Brazil
+153,BRA.AL,Alagoas,0,664,BZE-AL,Alagoas,BZE,84,8,Southern America,BRA,Brazil
+154,BRA.AM,Amazonas,0,665,BZN-AM,Amazonas,BZN,84,8,Southern America,BRA,Brazil
+155,BRA.AP,Amapá,0,666,BZN-AP,Amap ,BZN,84,8,Southern America,BRA,Brazil
+156,BRA.BA,Bahia,0,667,BZE-BA,Bahia,BZE,84,8,Southern America,BRA,Brazil
+157,BRA.CE,Ceará,0,668,BZE-CE,Cear ,BZE,84,8,Southern America,BRA,Brazil
+158,BRA.DF,Distrito Federal,0,669,BZC-DF,Brazilia Distrito Federal,BZC,84,8,Southern America,BRA,Brazil
+159,BRA.ES,Espírito Santo,0,670,BZL-ES,Espirito Santo,BZL,84,8,Southern America,BRA,Brazil
+160,BRA.ES.TMZ,Trindade and Martin Vaz,1,671,BZL-ES,Espirito Santo,BZL,84,8,Southern America,BRA,Brazil
+161,BRA.GO,Goiás,0,672,BZC-GO,Goi s,BZC,84,8,Southern America,BRA,Brazil
+162,BRA.MA,Maranhão,0,673,BZE-MA,Maranhao,BZE,84,8,Southern America,BRA,Brazil
+163,BRA.MG,Minas Gerais,0,674,BZL-MG,Minas Gerais,BZL,84,8,Southern America,BRA,Brazil
+164,BRA.MS,Mato Grosso do Sul,0,675,BZC-MS,Mato Grosso do Sul,BZC,84,8,Southern America,BRA,Brazil
+165,BRA.MT,Mato Grosso,0,676,BZC-MT,Mato Grosso,BZC,84,8,Southern America,BRA,Brazil
+166,BRA.PA,Pará,0,677,BZN-PA,Par ,BZN,84,8,Southern America,BRA,Brazil
+167,BRA.PB,Paraíba,0,678,BZE-PB,Para¡ba,BZE,84,8,Southern America,BRA,Brazil
+168,BRA.PE,Pernambuco,0,679,BZE-PE,Pernambuco,BZE,84,8,Southern America,BRA,Brazil
+169,BRA.PI,Piauí,0,680,BZE-PI,Piau¡,BZE,84,8,Southern America,BRA,Brazil
+170,BRA.PR,Paraná,0,681,BZS-PR,Paran ,BZS,84,8,Southern America,BRA,Brazil
+171,BRA.RJ,Rio de Janeiro,0,682,BZL-RJ,Rio de Janeiro,BZL,84,8,Southern America,BRA,Brazil
+172,BRA.RN,Rio Grande do Norte,0,683,BZE-RN,Rio Grande do Norte,BZE,84,8,Southern America,BRA,Brazil
+173,BRA.RO,Rondônia,0,684,BZN-RO,Rond“nia,BZN,84,8,Southern America,BRA,Brazil
+174,BRA.RR,Roraima,0,685,BZN-RM,Roraima,BZN,84,8,Southern America,BRA,Brazil
+175,BRA.RS,Rio Grande do Sul,0,686,BZS-RS,Rio Grande do Sul,BZS,84,8,Southern America,BRA,Brazil
+176,BRA.SC,Santa Catarina,0,687,BZS-SC,Santa Catarina,BZS,84,8,Southern America,BRA,Brazil
+177,BRA.SE,Sergipe,0,688,BZE-SE,Sergipe,BZE,84,8,Southern America,BRA,Brazil
+178,BRA.SP,São Paulo,0,689,BZL-SP,S?o Paulo,BZL,84,8,Southern America,BRA,Brazil
+179,BRA.TO,Tocantins,0,690,BZN-TO,Tocantins,BZN,84,8,Southern America,BRA,Brazil
+180,BRB,Barbados,1,691,WIN-BA,Barbados,WIN,81,8,Southern America,BRB,Barbados
+181,BWA,Botswana,0,692,BOT-OO,Botswana,BOT,27,2,Africa,BWA,Botswana
+182,CAF,Central African Republic,0,693,CAF-OO,Central African Republic,CAF,23,2,Africa,CAF,Central African Republic (the)
+183,CAN.AB,Alberta,0,694,ABT-OO,Alberta,ABT,71,7,Northern America,CAN,Canada
+184,CAN.BC,British Columbia,0,695,BRC-OO,British Columbia,BRC,71,7,Northern America,CAN,Canada
+185,CAN.LB,Labrador,0,696,LAB-OO,Labrador,LAB,72,7,Northern America,CAN,Canada
+186,CAN.MB,Manitoba,0,697,MAN-OO,Manitoba,MAN,71,7,Northern America,CAN,Canada
+187,CAN.NB,New Brunswick,0,698,NBR-OO,New Brunswick,NBR,72,7,Northern America,CAN,Canada
+188,CAN.NF,Newfoundland,1,699,NFL-NE,Newfoundland,NFL,72,7,Northern America,CAN,Canada
+189,CAN.NS,Nova Scotia,0,700,NSC-OO,Nova Scotia,NSC,72,7,Northern America,CAN,Canada
+190,CAN.NT,Northwest Territories,0,701,NWT-OO,Northwest Territories,NWT,70,7,Northern America,CAN,Canada
+191,CAN.NU,Nunavut,0,702,NUN-OO,Nunavut,NUN,70,7,Northern America,CAN,Canada
+192,CAN.ON,Ontario,0,703,ONT-OO,Ontario,ONT,72,7,Northern America,CAN,Canada
+193,CAN.PE,Prince Edward Island,1,704,PEI-OO,Prince Edward I.,PEI,72,7,Northern America,CAN,Canada
+194,CAN.QU,Québec,0,705,QUE-OO,Qu‚bec,QUE,72,7,Northern America,CAN,Canada
+195,CAN.SI,Sable Island,1,706,NSC-OO,Nova Scotia,NSC,72,7,Northern America,CAN,Canada
+196,CAN.SK,Saskatchewan,0,707,SAS-OO,Saskatchewan,SAS,71,7,Northern America,CAN,Canada
+197,CAN.YT,Yukon,0,708,YUK-OO,Yukon,YUK,70,7,Northern America,CAN,Canada
+198,CCK.MA,Cocos (Keeling) Main Atoll,1,91,CKI-OO,Cocos (Keeling) Is.,CKI,42,4,Asia-Tropical,CCK,Cocos (Keeling) Islands (the)
+199,CCK.NKI,Cocos (Keeling) North Keeling Island,1,709,CKI-OO,Cocos (Keeling) Is.,CKI,42,4,Asia-Tropical,CCK,Cocos (Keeling) Islands (the)
+200,CHE,Switzerland,0,710,SWI-OO,Switzerland,SWI,11,1,Europe,CHE,Switzerland
+201,CHL.AC,Antártica Chilena,0,17,CLS-MG,Magellanes,CLS,85,8,Southern America,CHL,Chile
+202,CHL.AI,Aisén,0,712,CLS-AI,Ais‚n,CLS,85,8,Southern America,CHL,Chile
+203,CHL.AN,Antofagasta,0,19,CLN-AN,Antofagasta,CLN,85,8,Southern America,CHL,Chile
+204,CHL.AR,Arica,0,714,CLN-TA,Tarapaca,CLN,85,8,Southern America,CHL,Chile
+205,CHL.ASI,"Alejandro Selkirk Island, Juan Fernadez Islands",1,715,JNF-OO,Juan Fern ndez Is.,JNF,85,8,Southern America,CHL,Chile
+206,CHL.AU,Arauco,0,716,CLC-BI,Biob¡o,CLC,85,8,Southern America,CHL,Chile
+207,CHL.BI,Biobío,0,717,CLC-BI,Biob¡o,CLC,85,8,Southern America,CHL,Chile
+208,CHL.CA,Cachapoal,0,718,CLC-OH,O'Higgins,CLC,85,8,Southern America,CHL,Chile
+209,CHL.CB,Chacabuco,0,83,CLC-SA,Santiago,CLC,85,8,Southern America,CHL,Chile
+210,CHL.CC,Cardenal Caro,0,720,CLC-OH,O'Higgins,CLC,85,8,Southern America,CHL,Chile
+211,CHL.CD,Cordillera,0,721,CLC-SA,Santiago,CLC,85,8,Southern America,CHL,Chile
+212,CHL.CE,Chiloé,0,722,CLS-LL,Los Lagos,CLS,85,8,Southern America,CHL,Chile
+213,CHL.CH,Choapa,0,723,CLC-CO,Coquimbo,CLC,85,8,Southern America,CHL,Chile
+214,CHL.CI,Coihaique,0,724,CLS-AI,Ais‚n,CLS,85,8,Southern America,CHL,Chile
+215,CHL.CL,Colchagua,0,725,CLC-OH,O'Higgins,CLC,85,8,Southern America,CHL,Chile
+216,CHL.CN,Concepción,0,726,CLC-BI,Biob¡o,CLC,85,8,Southern America,CHL,Chile
+217,CHL.CO,Copiapó,0,727,CLN-AT,Atacama,CLN,85,8,Southern America,CHL,Chile
+218,CHL.CP,Capitán Prat,0,728,CLS-AI,Ais‚n,CLS,85,8,Southern America,CHL,Chile
+219,CHL.CQ,Cauquenes,0,729,CLC-MA,Maule,CLC,85,8,Southern America,CHL,Chile
+220,CHL.CR,Chañaral,0,1257,CLN-AT,Atacama,CLN,85,8,Southern America,CHL,Chile
+221,CHL.CT,Cautín,0,730,CLC-LA,La Araucania,CLC,85,8,Southern America,CHL,Chile
+222,CHL.CU,Curicó,0,731,CLC-MA,Maule,CLC,85,8,Southern America,CHL,Chile
+223,CHL.EL,El Loa,0,732,CLN-AN,Antofagasta,CLN,85,8,Southern America,CHL,Chile
+224,CHL.EQ,Elqui,0,733,CLC-CO,Coquimbo,CLC,85,8,Southern America,CHL,Chile
+225,CHL.GC,General Carrera,0,734,CLS-AI,Ais‚n,CLS,85,8,Southern America,CHL,Chile
+226,CHL.HU,Huasco,0,735,CLN-AT,Atacama,CLN,85,8,Southern America,CHL,Chile
+227,CHL.IE,Iquique,0,736,CLN-TA,Tarapaca,CLN,85,8,Southern America,CHL,Chile
+228,CHL.LA,Los Andes,0,737,CLC-VA,Valpara¡so,CLC,85,8,Southern America,CHL,Chile
+229,CHL.LL,Llanquihue,0,738,CLS-LL,Los Lagos,CLS,85,8,Southern America,CHL,Chile
+230,CHL.LM,Limarí,0,739,CLC-CO,Coquimbo,CLC,85,8,Southern America,CHL,Chile
+231,CHL.LN,Linares,0,740,CLC-MA,Maule,CLC,85,8,Southern America,CHL,Chile
+232,CHL.ME,Melipilla,0,741,CLC-SA,Santiago,CLC,85,8,Southern America,CHL,Chile
+233,CHL.MG,Magallanes,0,742,CLS-MG,Magellanes,CLS,85,8,Southern America,CHL,Chile
+234,CHL.MI,Maipo,0,743,CLC-SA,Santiago,CLC,85,8,Southern America,CHL,Chile
+235,CHL.ML,Malleco,0,744,CLC-LA,La Araucania,CLC,85,8,Southern America,CHL,Chile
+236,CHL.NU,Ñuble,0,745,CLC-BI,Biob¡o,CLC,85,8,Southern America,CHL,Chile
+237,CHL.OS,Osorno,0,746,CLS-LL,Los Lagos,CLS,85,8,Southern America,CHL,Chile
+238,CHL.PE,Petorca,0,747,CLC-VA,Valpara¡so,CLC,85,8,Southern America,CHL,Chile
+239,CHL.PL,Palena,0,748,CLS-LL,Los Lagos,CLS,85,8,Southern America,CHL,Chile
+240,CHL.PR,Parinacota,0,749,CLN-TA,Tarapaca,CLN,85,8,Southern America,CHL,Chile
+241,CHL.QU,Quillota,0,750,CLC-VA,Valpara¡so,CLC,85,8,Southern America,CHL,Chile
+242,CHL.RCI,"Robinso Crusoe Island, Juan Fernandez Islands",1,751,JNF-OO,Juan Fern ndez Is.,JNF,85,8,Southern America,CHL,Chile
+243,CHL.SA,San Antonio,0,752,CLC-VA,Valpara¡so,CLC,85,8,Southern America,CHL,Chile
+244,CHL.SCI,"Santa Clara Island, Juan Fernadez Islands",1,753,JNF-OO,Juan Fern ndez Is.,JNF,85,8,Southern America,CHL,Chile
+245,CHL.SF,San Felipe de Aconcagua,0,754,CLC-VA,Valpara¡so,CLC,85,8,Southern America,CHL,Chile
+246,CHL.SG,Santiago,0,755,CLC-SA,Santiago,CLC,85,8,Southern America,CHL,Chile
+247,CHL.TC,Talca,0,756,CLC-MA,Maule,CLC,85,8,Southern America,CHL,Chile
+248,CHL.TG,Talagante,0,757,CLC-SA,Santiago,CLC,85,8,Southern America,CHL,Chile
+249,CHL.TI,Tierra del Fuego,1,758,CLS-MG,Magellanes,CLS,85,8,Southern America,CHL,Chile
+250,CHL.TO,Tocopilla,0,759,CLN-AN,Antofagasta,CLN,85,8,Southern America,CHL,Chile
+251,CHL.UE,Última Esperanza,0,760,CLS-MG,Magellanes,CLS,85,8,Southern America,CHL,Chile
+252,CHL.VD,Valdivia,0,761,CLS-LL,Los Lagos,CLS,85,8,Southern America,CHL,Chile
+253,CHL.VP,Valparaíso,0,762,CLC-VA,Valpara¡so,CLC,85,8,Southern America,CHL,Chile
+254,CHN.11,Beijing,0,763,CHN-BJ,Beijing,CHN,36,3,Asia-Temperate,CHN,China
+255,CHN.12,Tianjin,0,764,CHN-TJ,Tianjin,CHN,36,3,Asia-Temperate,CHN,China
+256,CHN.13,Hebei,0,765,CHN-HB,Hebei,CHN,36,3,Asia-Temperate,CHN,China
+257,CHN.14,Shanxi,0,766,CHN-SX,Shanxi,CHN,36,3,Asia-Temperate,CHN,China
+258,CHN.21,Liaoning,0,767,CHM-LN,Liaoning,CHM,36,3,Asia-Temperate,CHN,China
+259,CHN.22,Jilin,0,768,CHM-JL,Jilin,CHM,36,3,Asia-Temperate,CHN,China
+260,CHN.23,Heilongjiang,0,769,CHM-HJ,Heilongjiang,CHM,36,3,Asia-Temperate,CHN,China
+261,CHN.31,Shanghai,0,770,CHS-SH,Shanghai,CHS,36,3,Asia-Temperate,CHN,China
+262,CHN.32,Jiangsu,0,771,CHS-JS,Jiangsu,CHS,36,3,Asia-Temperate,CHN,China
+263,CHN.33,Zhejiang,0,772,CHS-ZJ,Zhejiang,CHS,36,3,Asia-Temperate,CHN,China
+264,CHN.34,Anhui,0,773,CHS-AH,Anhui,CHS,36,3,Asia-Temperate,CHN,China
+265,CHN.35,Fujian,0,774,CHS-FJ,Fujian,CHS,36,3,Asia-Temperate,CHN,China
+266,CHN.36,Jiangxi,0,775,CHS-JX,Jiangxi,CHS,36,3,Asia-Temperate,CHN,China
+267,CHN.37,Shandong,0,776,CHN-SD,Shandong,CHN,36,3,Asia-Temperate,CHN,China
+268,CHN.41,Henan,0,777,CHS-HE,Henan,CHS,36,3,Asia-Temperate,CHN,China
+269,CHN.42,Hubei,0,778,CHC-HU,Hubei,CHC,36,3,Asia-Temperate,CHN,China
+270,CHN.43,Hunan,0,779,CHS-HN,Hunan,CHS,36,3,Asia-Temperate,CHN,China
+271,CHN.44,Guangdong,0,780,CHS-GD,Guangdong,CHS,36,3,Asia-Temperate,CHN,China
+272,CHN.45,Guangxi,0,781,CHS-GX,Guangxi,CHS,36,3,Asia-Temperate,CHN,China
+273,CHN.46,Hainan,1,782,CHH-OO,Hainan,CHH,36,3,Asia-Temperate,CHN,China
+274,CHN.50,Chongqing,0,783,CHC-CQ,Chongqing,CHC,36,3,Asia-Temperate,CHN,China
+275,CHN.51,Sichuan,0,784,CHC-SC,Sichuan,CHC,36,3,Asia-Temperate,CHN,China
+276,CHN.52,Guizhou,0,785,CHC-GZ,Guizhou,CHC,36,3,Asia-Temperate,CHN,China
+277,CHN.53,Yunnan,0,786,CHC-YN,Yunnan,CHC,36,3,Asia-Temperate,CHN,China
+278,CHN.55,Nei Mongol,0,787,CHI-NM,Nei Mongol,CHI,36,3,Asia-Temperate,CHN,China
+279,CHN.61,Shaanxi,0,788,CHN-SA,Shaanxi,CHN,36,3,Asia-Temperate,CHN,China
+280,CHN.62,Gansu,0,789,CHN-GS,Gansu,CHN,36,3,Asia-Temperate,CHN,China
+281,CHN.63,Qinghai,0,790,CHQ-OO,Qinghai,CHQ,36,3,Asia-Temperate,CHN,China
+282,CHN.64,Ningxia Hui,0,791,CHI-NX,Ningxia,CHI,36,3,Asia-Temperate,CHN,China
+283,CHN.91,Hongkong,0,792,CHS-HK,Hong Kong,CHS,36,3,Asia-Temperate,HKG,Hong Kong
+284,CHN.92,Macau,0,793,CHS-MA,Macau,CHS,36,3,Asia-Temperate,MAC,Macao
+285,CHN.SIN,Xinjiang Uygur,0,794,CHX-OO,Xinjiang,CHX,36,3,Asia-Temperate,CHN,China
+286,CHN.TIB,Xizang,0,795,CHT-OO,Tibet,CHT,36,3,Asia-Temperate,CHN,China
+287,CIV,Cote d'Ivoire,0,796,IVO-OO,Ivory Coast,IVO,22,2,Africa,CIV,C“te d'Ivoire
+288,CMR,Cameroon,0,797,CMN-OO,Cameroon,CMN,23,2,Africa,CMR,Cameroon
+289,COD,Democratic Republic of the Congo,0,798,ZAI-OO,Zaire,ZAI,23,2,Africa,COD,Congo (the Democratic Republic of the)
+290,COG,Congo,0,799,CON-OO,Congo,CON,23,2,Africa,COG,Congo (the)
+291,COK.AI,"Aitutaki, Cook Islands",1,800,COO-OO,Cook Is.,COO,61,6,Pacific,COK,Cook Islands (the)
+292,COK.AT,"Atiu, Cook Islands",1,801,COO-OO,Cook Is.,COO,61,6,Pacific,COK,Cook Islands (the)
+293,COK.MA,"Mangaia, Cook Islands",1,802,COO-OO,Cook Is.,COO,61,6,Pacific,COK,Cook Islands (the)
+294,COK.MAU,"Mauke, Cook Islands",1,803,COO-OO,Cook Is.,COO,61,6,Pacific,COK,Cook Islands (the)
+295,COK.ME,"Manuae, Cook Islands",1,804,COO-OO,Cook Is.,COO,61,6,Pacific,COK,Cook Islands (the)
+296,COK.MI,"Manihiki, Cook Islands",1,805,TOK-MA,Manihiki Is.,TOK,60,6,Pacific,COK,Cook Islands (the)
+297,COK.MIT,"Mitiaro, Cook Islands",1,806,COO-OO,Cook Is.,COO,61,6,Pacific,COK,Cook Islands (the)
+298,COK.NAS,"Nassau, Cook Islands",1,807,TOK-MA,Manihiki Is.,TOK,60,6,Pacific,COK,Cook Islands (the)
+299,COK.PAL,"Palmerston, Cook Islands",1,808,COO-OO,Cook Is.,COO,61,6,Pacific,COK,Cook Islands (the)
+300,COK.PEN,"Penrhyn, Cook Islands",1,809,TOK-MA,Manihiki Is.,TOK,60,6,Pacific,COK,Cook Islands (the)
+301,COK.PUK,"Pukapuka, Cook Islands",1,810,TOK-MA,Manihiki Is.,TOK,60,6,Pacific,COK,Cook Islands (the)
+302,COK.RA,"Rarotonga, Cook Islands",1,811,COO-OO,Cook Is.,COO,61,6,Pacific,COK,Cook Islands (the)
+303,COK.RAK,"Rakahanga, Cook Islands",1,812,TOK-MA,Manihiki Is.,TOK,60,6,Pacific,COK,Cook Islands (the)
+304,COK.SUW,"Suwarrow, Cook Islands",1,813,TOK-MA,Manihiki Is.,TOK,60,6,Pacific,COK,Cook Islands (the)
+305,COK.TAK,"Takutea, Cook Islands",1,814,COO-OO,Cook Is.,COO,61,6,Pacific,COK,Cook Islands (the)
+306,COL,Colombia,0,815,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+307,COM,Comoros,1,816,COM-CO,Comoros,COM,29,2,Africa,COM,Comoros (the)
+308,CPV,Cape Verde,1,817,CVI-OO,Cape Verde,CVI,21,2,Africa,CPV,Cabo Verde
+309,CRI,Costa Rica,0,818,COS-OO,Costa Rica,COS,80,8,Southern America,CRI,Costa Rica
+310,CUB,Cuba,1,819,CUB-OO,Cuba,CUB,81,8,Southern America,CUB,Cuba
+311,CUW,Curacao,1,820,NLA-CU,Cura‡ao,NLA,81,8,Southern America,ANT,Netherlands Antilles
+312,CXR,Christmas Island,1,821,XMS-OO,Christmas I.,XMS,42,4,Asia-Tropical,CXR,Christmas Island
+313,CYM,Cayman Islands,1,822,CAY-OO,Cayman Is.,CAY,81,8,Southern America,CYM,Cayman Islands (the)
+314,CYP,Cyprus,1,823,CYP-OO,Cyprus,CYP,34,3,Asia-Temperate,CYP,Cyprus
+315,CZE,Czech Republic,0,824,CZE-CZ,Czech Republic,CZE,11,1,Europe,CZE,Czech Republic (the)
+317,DJI,Djibouti,0,826,DJI-OO,Djibouti,DJI,24,2,Africa,DJI,Djibouti
+318,DMA,Dominica,1,827,WIN-DO,Dominica,WIN,81,8,Southern America,DMA,Dominica
+319,DNK,Denmark,0,828,DEN-OO,Denmark,DEN,10,1,Europe,DNK,Denmark
+320,DOM,Dominican Republic,1,829,DOM-OO,Dominican Republic,DOM,81,8,Southern America,DOM,Dominican Republic (the)
+321,DZA,Algeria,0,830,ALG-OO,Algeria,ALG,20,2,Africa,DZA,Algeria
+324,EGY,Egypt,0,833,EGY-OO,Egypt,EGY,20,2,Africa,EGY,Egypt
+325,ERI,Eritrea,0,834,ERI-OO,Eritrea,ERI,24,2,Africa,ERI,Eritrea
+326,ESP.BAL,Balearic Islands,1,836,BAL-OO,Baleares,BAL,12,1,Europe,ESP,Spain
+327,ESP.CI,Canary Islands,1,837,CNY-OO,Canary Is.,CNY,21,2,Africa,ESP,Spain
+328,ESP.ESP,Spain (mainland),0,1360,SPA-SP,Spain,SPA,12,1,Europe,ESP,Spain
+329,EST,Estonia,0,838,BLT-ES,Estonia,BLT,14,1,Europe,EST,Estonia
+330,ETH,Ethiopia,0,839,ETH-OO,Ethiopia,ETH,24,2,Africa,ETH,Ethiopia
+331,FIN,Finland,0,840,FIN-OO,Finland,FIN,10,1,Europe,FIN,Finland
+332,FJI.AIW,"Aiwa, Lau Islands",1,841,FIJ-OO,Fiji,FIJ,60,6,Pacific,FJI,Fiji
+333,FJI.LAK,"Lakeba, Lau Islands",1,842,FIJ-OO,Fiji,FIJ,60,6,Pacific,FJI,Fiji
+334,FJI.NAS,"Nasoata, Fiji Islands",1,843,FIJ-OO,Fiji,FIJ,60,6,Pacific,FJI,Fiji
+335,FJI.NAY,"Nayau, Lau Islands",1,844,FIJ-OO,Fiji,FIJ,60,6,Pacific,FJI,Fiji
+336,FJI.ROT,Rotuma,1,845,FIJ-OO,Fiji,FIJ,60,6,Pacific,FJI,Fiji
+337,FRA.CI,Crozet Islands,1,847,CRZ-OO,Crozet Is.,CRZ,90,9,Antarctic,ATF,French Southern Territories (the)
+338,FRA.CLI,Clipperton Island,1,848,CPI-CL,Clipperton I.,CPI,80,8,Southern America,PYF,French Polynesia
+339,FRA.COR,Corsica,1,849,COR-OO,Corse,COR,12,1,Europe,FRA,France
+340,FRA.FRA,France (mainland),0,1362,FRA-FR,France,FRA,12,1,Europe,FRA,France
+341,FRA.KI,Kerguelen Islands,1,850,KEG-OO,Kerguelen,KEG,90,9,Antarctic,ATF,French Southern Territories (the)
+342,FRO,Faroe Islands,1,851,FOR-OO,F?royar,FOR,10,1,Europe,FRO,Faroe Islands (the)
+343,GAB,Gabon,0,852,GAB-OO,Gabon,GAB,23,2,Africa,GAB,Gabon
+344,GBR.DG,Diego Garcia,1,853,CGS-OO,Chagos Archipelago,CGS,29,2,Africa,IOT,British Indian Ocean Territory (the)
+345,GBR.ENG,England,1,854,GRB-OO,Great Britain,GRB,10,1,Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+346,GBR.NIR,Northern Ireland,1,855,IRE-NI,Northern Ireland,IRE,10,1,Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+347,GBR.SCO,Scotland,1,856,GRB-OO,Great Britain,GRB,10,1,Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+348,GBR.WAL,Wales,1,857,GRB-OO,Great Britain,GRB,10,1,Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+349,GEO,Georgia,0,858,TCS-GR,Georgia,TCS,33,3,Asia-Temperate,GEO,Georgia
+350,GHA,Ghana,0,859,GHA-OO,Ghana,GHA,22,2,Africa,GHA,Ghana
+351,GIN,Guinea,0,860,GUI-OO,Guinea,GUI,22,2,Africa,GIN,Guinea
+352,GLP.MG,Maria Galante,1,861,LEE-GU,Guadeloupe,LEE,81,8,Southern America,GLP,Guadeloupe
+353,GNB.EA,GNB_East,0,862,GNB-OO,Guinea-Bissau,GNB,22,2,Africa,GNB,Guinea-Bissau
+354,GNB.NO,GNB_North,0,863,GNB-OO,Guinea-Bissau,GNB,22,2,Africa,GNB,Guinea-Bissau
+355,GNB.SO,GNB_South,0,864,GNB-OO,Guinea-Bissau,GNB,22,2,Africa,GNB,Guinea-Bissau
+356,GNQ,Equatorial Guinea,0,129,EQG-OO,Equatorial Guinea,EQG,23,2,Africa,GNQ,Equatorial Guinea
+357,GRC,Greece,0,865,GRC-OO,Greece,GRC,13,1,Europe,GRC,Greece
+358,GRD,Grenada,1,866,WIN-GR,Grenada,WIN,81,8,Southern America,GRD,Grenada
+359,GRL,Greenland,1,867,GNL-OO,Greenland,GNL,70,7,Northern America,GRL,Greenland
+360,GUF,French Guiana,0,868,FRG-OO,French Guiana,FRG,82,8,Southern America,GUF,French Guiana
+361,GUM,Guam,1,869,MRN-GU,Guam,MRN,62,6,Pacific,GUM,Guam
+362,GUY,Guyana,0,870,GUY-OO,Guyana,GUY,82,8,Southern America,GUY,Guyana
+363,HMD.HI,Heard Island,1,871,HMD-OO,Heard-McDonald Is.,HMD,90,9,Antarctic,HMD,Heard Island and McDonald Islands
+364,HRV,Croatia,0,873,YUG-CR,Croatia,YUG,13,1,Europe,HRV,Croatia
+365,HTI.GO,Gonave,1,874,HAI-HA,Haiti,HAI,81,8,Southern America,HTI,Haiti
+366,HTI.TI,"Tortuga Island, Haiti",1,875,HAI-HA,Haiti,HAI,81,8,Southern America,HTI,Haiti
+367,HUN,Hungary,0,876,HUN-OO,Hungary,HUN,11,1,Europe,HUN,Hungary
+368,IDN,Indonesia,1,877,000-02,Indonesia,2,42,4,Asia-Tropical,IDN,Indonesia
+369,IMN,Isle of Man,1,878,GRB-OO,Great Britain,GRB,10,1,Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+370,IND.AAN,Andaman and Nicobar,1,879,000-03,Andaman and Nicobar,3,41,4,Asia-Tropical,IND,India
+371,IND.ANP,Andhra Pradesh,0,880,IND-AP,Andhra Pradesh,IND,40,4,Asia-Tropical,IND,India
+372,IND.ARP,Arunachal Pradesh,0,881,EHM-AP,Arunachal Pradesh,EHM,40,4,Asia-Tropical,IND,India
+373,IND.ASS,Assam,0,882,ASS-AS,Assam,ASS,40,4,Asia-Tropical,IND,India
+374,IND.BIH,Bihar,0,883,IND-BI,Bihar,IND,40,4,Asia-Tropical,IND,India
+375,IND.CHA,Chandigarh,0,884,IND-CH,Chandigarh,IND,40,4,Asia-Tropical,IND,India
+376,IND.CHH,Chhattisgarh,0,885,IND-CT,Chattisgarh,IND,40,4,Asia-Tropical,IND,India
+377,IND.DEL,Delhi,0,886,IND-DE,Delhi,IND,40,4,Asia-Tropical,IND,India
+378,IND.GOA,Goa,0,887,IND-GO,Goa,IND,40,4,Asia-Tropical,IND,India
+379,IND.GUJ,Gujarat,0,888,IND-GU,Gujarat,IND,40,4,Asia-Tropical,IND,India
+380,IND.HAR,Haryana,0,889,IND-HA,Haryana,IND,40,4,Asia-Tropical,IND,India
+381,IND.HIP,Himachal Pradesh,0,890,WHM-HP,Himachal Pradesh,WHM,40,4,Asia-Tropical,IND,India
+382,IND.JAK,Jammu and Kashmir,0,891,WHM-JK,Jammu-Kashmir,WHM,40,4,Asia-Tropical,IND,India
+383,IND.JHA,Jharkhand,0,892,IND-JK,Jharkhand,IND,40,4,Asia-Tropical,IND,India
+384,IND.KAR,Karnataka,0,893,IND-KT,Karnataka,IND,40,4,Asia-Tropical,IND,India
+385,IND.KER,Kerala,0,894,IND-KE,Kerala,IND,40,4,Asia-Tropical,IND,India
+386,IND.LAK,Lakshadweep,1,895,LDV-OO,Laccadive Is.,LDV,40,4,Asia-Tropical,IND,India
+387,IND.MAH,Maharashtra,0,896,IND-MR,Maharashtra,IND,40,4,Asia-Tropical,IND,India
+388,IND.MAN,Manipur,0,897,ASS-MA,Manipur,ASS,40,4,Asia-Tropical,IND,India
+389,IND.MAP,Madhya Pradesh,0,898,IND-MP,Madhya Pradesh,IND,40,4,Asia-Tropical,IND,India
+390,IND.MEG,Meghalaya,0,899,ASS-ME,Meghalaya,ASS,40,4,Asia-Tropical,IND,India
+391,IND.MIZ,Mizoram,0,900,ASS-MI,Mizoram,ASS,40,4,Asia-Tropical,IND,India
+392,IND.NAG,Nagaland,0,901,ASS-NA,Nagaland,ASS,40,4,Asia-Tropical,IND,India
+393,IND.ODI,Orissa,0,902,IND-OR,Orissa,IND,40,4,Asia-Tropical,IND,India
+394,IND.PUD,Puducherry,0,903,000-09,Puducherry,IND,40,4,Asia-Tropical,IND,India
+395,IND.PUN,Punjab,0,904,IND-PU,Punjab,IND,40,4,Asia-Tropical,IND,India
+396,IND.RAJ,Rajasthan,0,905,IND-RA,Rajasthan,IND,40,4,Asia-Tropical,IND,India
+397,IND.SIK,Sikkim,0,906,EHM-SI,Sikkim,EHM,40,4,Asia-Tropical,IND,India
+398,IND.TAN,Tamil Nadu,0,907,IND-TN,Tamil Nadu,IND,40,4,Asia-Tropical,IND,India
+399,IND.TRI,Tripura,0,908,ASS-TR,Tripura,ASS,40,4,Asia-Tropical,IND,India
+400,IND.UTH,Uttaranchal,0,909,WHM-UT,Uttaranchal,WHM,40,4,Asia-Tropical,IND,India
+401,IND.UTP,Uttar Pradesh,0,910,IND-UP,Uttar Pradesh,IND,40,4,Asia-Tropical,IND,India
+402,IND.WBE,West Bengal,0,911,IND-WB,West Bengal,IND,40,4,Asia-Tropical,IND,India
+403,IRL,Ireland,1,912,IRE-IR,Ireland,IRE,10,1,Europe,IRL,Ireland
+404,ISL.IAU,"East province, Iceland",1,913,ICE-OO,Iceland,ICE,10,1,Europe,ISL,Iceland
+405,ISL.IMI,"Central Highlands, Iceland",1,914,ICE-OO,Iceland,ICE,10,1,Europe,ISL,Iceland
+406,ISL.INO,"North province, Iceland",1,915,ICE-OO,Iceland,ICE,10,1,Europe,ISL,Iceland
+407,ISL.INV,"North-West province, Iceland",1,916,ICE-OO,Iceland,ICE,10,1,Europe,ISL,Iceland
+408,ISL.ISU,"South province, Iceland",1,917,ICE-OO,Iceland,ICE,10,1,Europe,ISL,Iceland
+409,ISL.IVE,"Westprovince, Iceland",1,918,ICE-OO,Iceland,ICE,10,1,Europe,ISL,Iceland
+410,ISR,Israel,0,919,PAL-IS,Israel,PAL,34,3,Asia-Temperate,ISR,Israel
+411,ITA.ITA,Italy (mainland),0,920,ITA-IT,Italy,ITA,13,1,Europe,ITA,Italy
+412,ITA.SAR,Sardinia,1,921,SAR-OO,Sardegna,SAR,12,1,Europe,ITA,Italy
+413,ITA.SIC,Sicily,1,922,SIC-SI,Sicilia,SIC,13,1,Europe,ITA,Italy
+414,JAM,Jamaica,1,923,JAM-OO,Jamaica,JAM,81,8,Southern America,JAM,Jamaica
+415,JEY_GGY,Channel Islands,1,84,FRA-CI,Channel Is.,FRA,12,1,Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+416,JPN,Japan,1,925,000-04,Japan,4,38,3,Asia-Temperate,JPN,Japan
+417,KEN,Kenya,0,926,KEN-OO,Kenya,KEN,25,2,Africa,KEN,Kenya
+418,KGZ,Kyrgyzstan,0,927,KGZ-OO,Kirgizistan,KGZ,32,3,Asia-Temperate,KGZ,Kyrgyzstan
+419,KIR.KII,"Kiritimati, Northern Line Islands",1,928,LIN-KI,Kiribati Line Is.,LIN,61,6,Pacific,KIR,Kiribati
+420,KIR.PAL,"Palmyra, Norther Line Islands",1,929,LIN-KI,Kiribati Line Is.,LIN,61,6,Pacific,KIR,Kiribati
+421,KIR.PI.CA,"Canton, Phoenix Islands",1,930,PHX-OO,Phoenix Is.,PHX,60,6,Pacific,KIR,Kiribati
+422,KIR.PI.EB,"Enderbury, Phoenix Islands",1,931,PHX-OO,Phoenix Is.,PHX,60,6,Pacific,KIR,Kiribati
+423,KIR.PI.GA,"Gardner, Phoenix Islands",1,932,PHX-OO,Phoenix Is.,PHX,60,6,Pacific,KIR,Kiribati
+424,KIR.PI.HU,"Hull, Phoenix Islands",1,933,PHX-OO,Phoenix Is.,PHX,60,6,Pacific,KIR,Kiribati
+425,KIR.PI.MK,"McKean, Phoenix Islands",1,934,PHX-OO,Phoenix Is.,PHX,60,6,Pacific,KIR,Kiribati
+426,KIR.PI.SY,"Sydney, Phoenix Islands",1,935,PHX-OO,Phoenix Is.,PHX,60,6,Pacific,KIR,Kiribati
+427,KIR.TAB,Tabueran,1,936,LIN-KI,Kiribati Line Is.,LIN,61,6,Pacific,KIR,Kiribati
+428,KIR.TER,"Teraina, Norther Line Islands",1,937,LIN-KI,Kiribati Line Is.,LIN,61,6,Pacific,KIR,Kiribati
+429,KNA.KI,Saint Kitts,1,938,LEE-SK,St.Kitts-Nevis,LEE,81,8,Southern America,KNA,Saint Kitts and Nevis
+430,KNA.NE,Nevis,1,939,LEE-SK,St.Kitts-Nevis,LEE,81,8,Southern America,KNA,Saint Kitts and Nevis
+431,KOR,"Korea, Republic of",0,940,KOR-SK,South Korea,KOR,38,3,Asia-Temperate,KOR,Korea (the Republic of)
+432,LAO,Lao People's Democratic Republic,0,941,LAO-OO,Laos,LAO,41,4,Asia-Tropical,LAO,Lao People's Democratic Republic (the)
+433,LBR,Liberia,0,942,LBR-OO,Liberia,LBR,22,2,Africa,LBR,Liberia
+434,LBY,Libyan Arab Jamahiriya,0,943,LBY-OO,Libya,LBY,20,2,Africa,LBY,Libya
+435,LCA,Saint Lucia,1,944,WIN-SL,St.Lucia,WIN,81,8,Southern America,LCA,Saint Lucia
+436,LIE,Liechtenstein,0,945,AUT-LI,Liechtenstein,AUT,11,1,Europe,LIE,Liechtenstein
+437,LKA,Sri Lanka,1,946,SRL-OO,Sri Lanka,SRL,40,4,Asia-Tropical,LKA,Sri Lanka
+438,LSO,Lesotho,0,947,LES-OO,Lesotho,LES,27,2,Africa,LSO,Lesotho
+439,LTU,Lithuania,0,948,BLT-LI,Lithuania,BLT,14,1,Europe,LTU,Lithuania
+440,LUX,Luxembourg,0,949,BGM-LU,Luxembourg,BGM,11,1,Europe,LUX,Luxembourg
+441,LVA,Latvia,0,950,BLT-LA,Latvia,BLT,14,1,Europe,LVA,Latvia
+442,MAR,Morocco,0,951,MOR-MO,Morocco,MOR,20,2,Africa,MAR,Morocco
+443,MDA,Republic of Moldova,0,952,UKR-MO,Moldova,UKR,14,1,Europe,MDA,Moldova (the Republic of)
+444,MDG,Madagascar,1,953,MDG-OO,Madagascar,MDG,29,2,Africa,MDG,Madagascar
+445,MEX.AGU,Aguascalientes,0,954,MXE-AG,Aguascalientes,MXE,79,7,Northern America,MEX,Mexico
+446,MEX.BC,Baja California Peninsula,0,1369,000-08,Baja California Peninsula,MXN,79,7,Northern America,MEX,Mexico
+447,MEX.CAM,Campeche,0,957,MXT-CA,Campeche,MXT,79,7,Northern America,MEX,Mexico
+448,MEX.CHH,Chihuahua,0,958,MXE-CU,Chihuahua,MXE,79,7,Northern America,MEX,Mexico
+449,MEX.CHP,Chiapas,0,959,MXT-CI,Chiapas,MXT,79,7,Northern America,MEX,Mexico
+450,MEX.COA,Coahuila,0,960,MXE-CO,Coahuila,MXE,79,7,Northern America,MEX,Mexico
+451,MEX.COL,Colima,0,961,MXS-CL,Colima,MXS,79,7,Northern America,MEX,Mexico
+452,MEX.DIF,Distrito Federal,0,962,MXC-DF,Mexico Distrito Federal,MXC,79,7,Northern America,MEX,Mexico
+453,MEX.DUR,Durango,0,963,MXE-DU,Durango,MXE,79,7,Northern America,MEX,Mexico
+454,MEX.GRO,Guerrero,0,964,MXS-GR,Guerrero,MXS,79,7,Northern America,MEX,Mexico
+455,MEX.GUA,Guanajuato,0,965,MXE-GU,Guanajuato,MXE,79,7,Northern America,MEX,Mexico
+456,MEX.HID,Hidalgo,0,966,MXE-HI,Hidalgo,MXE,79,7,Northern America,MEX,Mexico
+457,MEX.JAL,Jalisco,0,967,MXS-JA,Jalisco,MXS,79,7,Northern America,MEX,Mexico
+458,MEX.MEX,México,0,284,MXC-ME,M‚xico State,MXC,79,7,Northern America,MEX,Mexico
+459,MEX.MIC,Michoacán,0,969,MXS-MI,Michoac n,MXS,79,7,Northern America,MEX,Mexico
+460,MEX.MOR,Morelos,0,970,MXC-MO,Morelos,MXC,79,7,Northern America,MEX,Mexico
+461,MEX.NAY,Nayarit,0,971,MXS-NA,Nayarit,MXS,79,7,Northern America,MEX,Mexico
+462,MEX.NLE,Nuevo León,0,972,MXE-NL,Nuevo Le¢n,MXE,79,7,Northern America,MEX,Mexico
+463,MEX.OAX,Oaxaca,0,973,MXS-OA,Oaxaca,MXS,79,7,Northern America,MEX,Mexico
+464,MEX.PUE,Puebla,0,974,MXC-PU,Puebla,MXC,79,7,Northern America,MEX,Mexico
+465,MEX.QUE,Querétaro,0,975,MXE-QU,Quer‚taro,MXE,79,7,Northern America,MEX,Mexico
+466,MEX.ROO,Quintana Roo,0,976,MXT-QR,Quintana Roo,MXT,79,7,Northern America,MEX,Mexico
+467,MEX.SIN,Sinaloa,0,977,MXN-SI,Sinaloa,MXN,79,7,Northern America,MEX,Mexico
+468,MEX.SLP,San Luis Potosí,0,978,MXE-SL,San Luis Potos¡,MXE,79,7,Northern America,MEX,Mexico
+469,MEX.SOC,Socorro,1,979,MXI-RG,Revillagigedo Is.,MXI,79,7,Northern America,MEX,Mexico
+470,MEX.SON,Sonora,0,980,MXN-SO,Sonora,MXN,79,7,Northern America,MEX,Mexico
+471,MEX.TAB,Tabasco,0,981,MXT-TB,Tabasco,MXT,79,7,Northern America,MEX,Mexico
+472,MEX.TAM,Tamaulipas,0,982,MXE-TA,Tamaulipas,MXE,79,7,Northern America,MEX,Mexico
+473,MEX.TLA,Tlaxcala,0,983,MXC-TL,Tlaxcala,MXC,79,7,Northern America,MEX,Mexico
+474,MEX.VER,Veracruz,0,984,MXG-VC,Veracruz,MXG,79,7,Northern America,MEX,Mexico
+475,MEX.YUC,Yucatán,0,985,MXT-YU,Yucat n,MXT,79,7,Northern America,MEX,Mexico
+476,MEX.ZAC,Zacatecas,0,986,MXE-ZA,Zacatecas,MXE,79,7,Northern America,MEX,Mexico
+477,MHL.AA,Ailinginae Atoll,1,987,MRS-OO,Marshall Is.,MRS,62,6,Pacific,MHL,Marshall Islands (the)
+478,MHL.ENI,"Eniwetok, Mashall Islands",1,988,MRS-OO,Marshall Is.,MRS,62,6,Pacific,MHL,Marshall Islands (the)
+479,MHL.MA,"Majuro Atoll, Marshall Islands",1,989,MRS-OO,Marshall Is.,MRS,62,6,Pacific,MHL,Marshall Islands (the)
+480,MHL.RA,Rongelap Atoll,1,990,MRS-OO,Marshall Is.,MRS,62,6,Pacific,MHL,Marshall Islands (the)
+481,MKD,The former Yugoslav Republic of Macedonia,0,991,YUG-MA,Macedonia,YUG,13,1,Europe,MKD,Macedonia (the former Yugoslav Republic of)
+482,MLI,Mali,0,992,MLI-OO,Mali,MLI,22,2,Africa,MLI,Mali
+483,MLT,Malta,1,993,SIC-MA,Malta,SIC,13,1,Europe,MLT,Malta
+484,MNP.AG,"Alamagan, Marianas",1,994,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+485,MNP.AH,"Agrihan, Marianas",1,995,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+486,MNP.AI,"Asuncion Island, Marianas",1,996,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+487,MNP.AJ,"Aguijan, Marianas",1,997,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+488,MNP.AT,"Anatahan, Marianas",1,998,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+489,MNP.FP,"Farallon de Pajaros, Marianas",1,999,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+490,MNP.GG,"Guguan, Marianas",1,1000,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+491,MNP.MI,"Maug Islands, Marianas",1,1001,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+492,MNP.PA,"Pagan, Mariana Islands",1,1002,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+493,MNP.RO,"Rota, Marianas",1,1003,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+494,MNP.SG,"Sarigan, Marianas",1,1004,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+495,MNP.SP,"Saipan, Marianas",1,1005,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+496,MNP.TI,"Tinian, Marianas",1,1006,MRN-NM,Northern Marianas,MRN,62,6,Pacific,MNP,Northern Mariana Islands (the)
+497,MOZ.A,Nassa,0,1007,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+498,MOZ.B,Manica,0,1008,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+499,MOZ.G,Gaza,0,1009,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+500,MOZ.I,Inhambane,0,1010,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+501,MOZ.L,Maputo,0,1011,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+502,MOZ.N,Nampula,0,1012,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+503,MOZ.P,Cabo Delgado,0,1013,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+504,MOZ.Q,Zambezia,0,1014,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+505,MOZ.S,Sofala,0,1015,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+506,MOZ.T,Tete,0,1016,MOZ-OO,Mozambique,MOZ,26,2,Africa,MOZ,Mozambique
+507,MRT,Mauritania,0,1017,MTN-OO,Mauritania,MTN,22,2,Africa,MRT,Mauritania
+508,MSR,Montserrat,1,1018,LEE-MO,Montserrat,LEE,81,8,Southern America,MSR,Montserrat
+509,MTQ,Martinique,1,1019,WIN-MA,Martinique,WIN,81,8,Southern America,MTQ,Martinique
+510,MUS,Mauritius,1,1020,MAU-OO,Mauritius,MAU,29,2,Africa,MUS,Mauritius
+511,MWI,Malawi,0,1021,MLW-OO,Malawi,MLW,26,2,Africa,MWI,Malawi
+512,MYS.PEN,MYS_Peninsula,0,1022,MLY-PM,Peninsular Malaysia,MLY,42,4,Asia-Tropical,MYS,Malaysia
+513,NAM,Namibia,0,1023,NAM-OO,Namibia,NAM,27,2,Africa,NAM,Namibia
+514,NCL,New Caledonia,1,1024,NWC-OO,New Caledonia,NWC,60,6,Pacific,NCL,New Caledonia
+515,NER,Niger,0,1025,NGR-OO,Niger,NGR,22,2,Africa,NER,Niger (the)
+516,NFK,Norfolk Island,1,1026,NFK-NI,Norfolk I.,NFK,50,5,Australasia,NFK,Norfolk Island
+517,NGA,Nigeria,0,1027,NGA-OO,Nigeria,NGA,22,2,Africa,NGA,Nigeria
+518,NIC,Nicaragua,0,1028,NIC-OO,Nicaragua,NIC,80,8,Southern America,NIC,Nicaragua
+519,NLD,Netherlands,0,1029,NET-OO,Netherlands,NET,11,1,Europe,NLD,Netherlands (the)
+520,NOR,Norway (mainland),0,1030,NOR-OO,Norway,NOR,10,1,Europe,NOR,Norway
+521,NOR.JM,Jan Mayen,1,1031,SVA-OO,Svalbard,SVA,10,1,Europe,SJM,Svalbard and Jan Mayen
+522,NOR.SVA,Svalbard,1,1032,SVA-OO,Svalbard,SVA,10,1,Europe,SJM,Svalbard and Jan Mayen
+523,NPL,Nepal,0,1033,NEP-OO,Nepal,NEP,40,4,Asia-Tropical,NPL,Nepal
+524,NRU,Nauru,1,1034,NRU-OO,Nauru,NRU,60,6,Pacific,NRU,Nauru
+525,NZL,New Zealand,1,1035,000-05,New Zealand,5,51,5,Australasia,NZL,New Zealand
+526,NZL.AUC,Auckland Islands,1,1036,ATP-OO,Antipodean Is.,ATP,51,5,Australasia,NZL,New Zealand
+527,NZL.CI,Chatham Islands,1,1037,CTM-OO,Chatham Is.,CTM,51,5,Australasia,NZL,New Zealand
+528,OMN,Oman,0,329,OMA-OO,Oman,OMA,35,3,Asia-Temperate,OMN,Oman
+529,PAN,Panama,0,1067,PAN-OO,Panam ,PAN,80,8,Southern America,PAN,Panama
+531,PHL,Philippines,1,1069,PHI-OO,Philippines,PHI,42,4,Asia-Tropical,PHL,Philippines (the)
+532,POL,Poland,0,1070,POL-OO,Poland,POL,11,1,Europe,POL,Poland
+533,PRI,Puerto Rico,1,1071,PUE-OO,Puerto Rico,PUE,81,8,Southern America,PRI,Puerto Rico
+534,PRK,"Korea, Democratic People's Republic of",0,1072,KOR-NK,North Korea,KOR,38,3,Asia-Temperate,PRK,Korea (the Democratic People's Republic of)
+536,PRT.DES,Desertas,1,1075,MDR-OO,Madeira,MDR,21,2,Africa,PRT,Portugal
+537,PRT.MAD,Madeira,1,1076,MDR-OO,Madeira,MDR,21,2,Africa,PRT,Portugal
+538,PRT.PRT,Portugal (mainland),0,1361,POR-OO,Portugal,POR,12,1,Europe,PRT,Portugal
+539,PRT.PSA,Porto Santo,1,1077,MDR-OO,Madeira,MDR,21,2,Africa,PRT,Portugal
+540,PRT.SIS,Salvage Islands,1,1078,SEL-OO,Selvagens,SEL,21,2,Africa,PRT,Portugal
+541,PYF.AGA,"Agakauitai, French Polynesia (Gambier Islands)",1,1079,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+543,PYF.AI.MAR,"Maria, French Polynesia (Austral Islands)",1,1081,TUB-OO,Tubuai Is.,TUB,61,6,Pacific,PYF,French Polynesia
+544,PYF.AI.RAI,"Raivavae, French Polynesia (Austral Islands)",1,1082,TUB-OO,Tubuai Is.,TUB,61,6,Pacific,PYF,French Polynesia
+545,PYF.AI.RIM,"Rimatara, French Polynesia (Austral Islands)",1,1083,TUB-OO,Tubuai Is.,TUB,61,6,Pacific,PYF,French Polynesia
+546,PYF.AI.RUR,"Rurutu, French Polynesia (Austral Islands)",1,1084,TUB-OO,Tubuai Is.,TUB,61,6,Pacific,PYF,French Polynesia
+547,PYF.AI.TUB,"Tubuai, French Polynesia (Austral Islands)",1,1085,TUB-OO,Tubuai Is.,TUB,61,6,Pacific,PYF,French Polynesia
+548,PYF.BEL,"Bellingshausen, French Polynesia",1,1086,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+549,PYF.BI.RAP,"Rapa, French Polynesia (Bass Islands)",1,1087,TUB-OO,Tubuai Is.,TUB,61,6,Pacific,PYF,French Polynesia
+550,PYF.GI.AKA,"Akamaru, French Polynesia (Gambier Islands)",1,1088,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+551,PYF.GI.AUK,"Aukena, French Polynesia (Gambier Islands)",1,1089,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+554,PYF.GI.MAN,"Mangareva, French Polynesia (Gambier Islands)",1,1092,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+555,PYF.GI.TAR,"Taravai, French Polynesia (Gambier Islands)",1,1093,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+556,PYF.GI.TAU,"Tauna, French Polynesia (Gambier Islands)",1,1094,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+557,PYF.GI.TEK,"Tekava, French Polynesia (Gambier Islands)",1,1095,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+558,PYF.GI.TEM,"Temoe, French Polynesia (Gambier Islands)",1,1096,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+559,PYF.GI.TRO,"Tarauru Roa, French Polynesia (Gambier Islands)",1,1097,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+560,PYF.HE,"Henderson, French Polynesia",1,1098,PIT-OO,Pitcairn Is.,PIT,61,6,Pacific,PCN,Pitcairn
+561,PYF.MI.EI,"Eiao, French Polynesia (Marquesas Islands)",1,1099,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+562,PYF.MI.FHI,"Fatu Hiva, French Polynesia (Marquesas Islands)",1,1100,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+563,PYF.MI.FHU,"Fatu Huku, French Polynesia (Marquesas Islands)",1,1101,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+564,PYF.MI.HA,"Hatutaa, French Polynesia (Marquesas Islands)",1,1102,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+565,PYF.MI.HO,"Hiva Oa, French Polynesia (Marquesas Islands)",1,1103,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+566,PYF.MI.MO,"Mohotani, French Polynesia (Marquesas Islands)",1,1104,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+567,PYF.MI.NH,"Nuku Hiva, French Polynesia (Marquesas Islands)",1,1105,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+568,PYF.MI.TA,"Tahuata, French Polynesia (Marquesas Islands)",1,1106,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+569,PYF.MI.UH,"Ua Huka, French Polynesia (Marquesas Islands)",1,1107,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+570,PYF.MI.UP,"Ua Pou, French Polynesia (Marquesas Islands)",1,1108,MRQ-OO,Marquesas,MRQ,61,6,Pacific,PYF,French Polynesia
+571,PYF.OE,"Oeno, French Polynesia",1,1109,PIT-OO,Pitcairn Is.,PIT,61,6,Pacific,PCN,Pitcairn
+572,PYF.PC,"Pitcairn, French Polynesia",1,1110,PIT-OO,Pitcairn Is.,PIT,61,6,Pacific,PCN,Pitcairn
+573,PYF.SI.BOR,"Bora Bora, French Polynesia (Society Islands)",1,1111,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+574,PYF.SI.HUA,"Huahine, French Polynesia (Society Islands)",1,1112,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+575,PYF.SI.MAI,"Maiao, French Polynesia (Society Islands)",1,1113,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+576,PYF.SI.MAU,"Maupiti, French Polynesia (Society Islands)",1,1114,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+577,PYF.SI.MEH,"Mehetia, French Polynesia (Society Islands)",1,1115,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+578,PYF.SI.MOO,"Moorea, French Polynesia (Society Islands)",1,1116,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+579,PYF.SI.MOP,"Mopelia, French Polynesia (Society Islands)",1,1117,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+580,PYF.SI.RAI,"Raiatea, French Polynesia (Society Islands)",1,1118,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+581,PYF.SI.TAH,"Tahaa, French Polynesia (Society Islands)",1,1119,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+582,PYF.SI.TET,"Tetiaroa, French Polynesia (Society Islands)",1,1120,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+583,PYF.SI.THI,"Tahiti, French Polynesia (Society Islands)",1,1121,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+584,PYF.SI.TUP,"Tupai, French Polynesia (Society Islands)",1,1122,SCI-OO,Society Is.,SCI,61,6,Pacific,PYF,French Polynesia
+588,PYF.TA.FAK,"Fakahina, French Polynesia (Tuamotu Archipelago)",1,1126,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+589,PYF.TA.FAN,"Fangataufa, French Polynesia (Tuamotu Archipelago)",1,1127,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+590,PYF.TA.HAO,"Hao, French Polynesia (Tuamotu Archipelago)",1,1128,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+592,PYF.TA.KAU,"Kaukura, French Polynesia (Tuamotu Archipelago)",1,1130,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+594,PYF.TA.MAK,"Makatea, French Polynesia (Tuamotu Archipelago)",1,1132,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+595,PYF.TA.MAN,"Manihi, French Polynesia (Tuamotu Archipelago)",1,1133,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+596,PYF.TA.MAO,"Matureivavao, French Polynesia (Tuamotu Archipelago)",1,1134,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+597,PYF.TA.MOR,"Moruroa, French Polynesia (Tuamotu Archipelago)",1,1135,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+600,PYF.TA.NIA,"Niau, French Polynesia (Tuamotu Archipelago)",1,1138,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+601,PYF.TA.RAN,"Rangiroa, French Polynesia (Tuamotu Archipelago)",1,1139,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+603,PYF.TA.TAI,"Taiaro, French Polynesia (Tuamotu Archipelago)",1,1140,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+604,PYF.TA.TAO,"Takapoto, French Polynesia (Tuamotu Archipelago)",1,1144,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+605,PYF.TA.TEN,"Tenararo, French Polynesia (Tuamotu Archipelago)",1,1141,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+606,PYF.TA.TGA,"Tenarunga, French Polynesia (Tuamotu Archipelago)",1,1142,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+607,PYF.TA.TIK,"Tikehau, French Polynesia (Tuamotu Archipelago)",1,1143,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+610,PYF.TA.TNO,"Tepoto North, French Polynesia (Tuamotu Archipelago)",1,1146,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+611,PYF.TA.TOA,"Toau, French Polynesia (Tuamotu Archipelago)",1,1147,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+612,PYF.TA.VAH,"Vahanga, French Polynesia (Tuamotu Archipelago)",1,1148,TUA-OO,Tuamotu,TUA,61,6,Pacific,PYF,French Polynesia
+613,QAT,Qatar,0,1149,GST-QA,Qatar,GST,35,3,Asia-Temperate,QAT,Qatar
+614,ROU,Romania,0,1150,ROM-OO,Romania,ROM,13,1,Europe,ROU,Romania
+615,RUS.KHA,Khabarovsk,0,1151,KHA-OO,Khabarovsk,KHA,31,3,Asia-Temperate,RUS,Russian Federation (the)
+616,RUS.KI.ANT,"Antsiferova, Kuril Islands",1,711,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+617,RUS.KI.ANU,"Anuchina, Kuril Islands",1,1152,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+618,RUS.KI.DEM,"Demina, Kuril Islands",1,1153,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+619,RUS.KI.EKA,"Ekarma, Kuril Islands",1,1154,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+620,RUS.KI.ITU,"Iturup, Kuril Islands",1,1155,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+621,RUS.KI.KET,"Ketoi, Kuril Islands",1,1156,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+622,RUS.KI.KHA,"Kharimkotan, Kuril Islands",1,1157,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+623,RUS.KI.KUR,"Kunashir, Kuril Islands",1,1158,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+624,RUS.KI.MAK,"Makanrushi, Kuril Islands",1,1159,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+625,RUS.KI.MAT,"Matua, Kuril Islands",1,1160,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+626,RUS.KI.PAR,"Paramushir, Kuril Islands",1,1161,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+627,RUS.KI.POL,"Polonskogo, Kuril Islands",1,1162,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+628,RUS.KI.SHI,"Shimushir, Kuril Islands",1,1163,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+629,RUS.KI.SHN,"Shikotan, Kuril Islands",1,1164,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+630,RUS.KI.SHU,"Shumushu, Kuril Islands",1,1165,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+631,RUS.KI.STO,"Storozhevoy, Kuril Islands",1,1166,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+632,RUS.KI.TAN,"Tanfilyeva, Kuril Islands",1,1167,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+633,RUS.KI.URU,"Urup, Kuril Islands",1,1168,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+634,RUS.KI.USH,"Ushishir, Kuril Islands",1,1169,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+635,RUS.KI.YUR,"Yuri, Kuril Islands",1,1170,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+636,RUS.KI.ZEJ,"Zeleny, Kuril Islands",1,1171,KUR-OO,Kuril Is.,KUR,31,3,Asia-Temperate,RUS,Russian Federation (the)
+637,RUS.LN,Leningrad,0,1172,RUW-OO,Northwest European Russia,RUW,14,1,Europe,RUS,Russian Federation (the)
+638,RUS.LP,Lipetsk,0,1173,RUC-OO,Central European Russia,RUC,14,1,Europe,RUS,Russian Federation (the)
+639,RUS.MAG,Magadan region,0,264,MAG-OO,Magadan,MAG,31,3,Asia-Temperate,RUS,Russian Federation (the)
+640,RUS.MR,Mordovia,0,1174,RUC-OO,Central European Russia,RUC,14,1,Europe,RUS,Russian Federation (the)
+641,RUS.MS,Moskva,0,1175,RUC-OO,Central European Russia,RUC,14,1,Europe,RUS,Russian Federation (the)
+642,RUS.RZ,Ryazan,0,1176,RUC-OO,Central European Russia,RUC,14,1,Europe,RUS,Russian Federation (the)
+643,RUS.SIB.AK,Altay,0,5,ALT-OO,Altay,ALT,30,3,Asia-Temperate,RUS,Russian Federation (the)
+644,RUS.SIB.AR,Altai Republic,0,1178,ALT-OO,Altay,ALT,30,3,Asia-Temperate,RUS,Russian Federation (the)
+645,RUS.SIB.IO,Irkutsk,0,1179,IRK-OO,Irkutsk,IRK,30,3,Asia-Temperate,RUS,Russian Federation (the)
+646,RUS.SIB.KK,Krasnoyarsk,0,1180,KRA-OO,Krasnoyarsk,KRA,30,3,Asia-Temperate,RUS,Russian Federation (the)
+647,RUS.SIB.KR,Kemerovo,0,1181,WSB-OO,West Siberia,WSB,30,3,Asia-Temperate,RUS,Russian Federation (the)
+648,RUS.SIB.NR,Novosibirsk,0,1182,WSB-OO,West Siberia,WSB,30,3,Asia-Temperate,RUS,Russian Federation (the)
+649,RUS.SIB.OR,Omsk,0,1183,WSB-OO,West Siberia,WSB,30,3,Asia-Temperate,RUS,Russian Federation (the)
+650,RUS.SIB.RB,Buryat,0,1184,BRY-OO,Buryatiya,BRY,30,3,Asia-Temperate,RUS,Russian Federation (the)
+651,RUS.SIB.RK,Khakass,0,1185,KRA-OO,Krasnoyarsk,KRA,30,3,Asia-Temperate,RUS,Russian Federation (the)
+652,RUS.SIB.RT,Republic of Tyva,0,1186,TVA-OO,Tuva,TVA,30,3,Asia-Temperate,RUS,Russian Federation (the)
+653,RUS.SIB.TO,Tomsk,0,1187,WSB-OO,West Siberia,WSB,30,3,Asia-Temperate,RUS,Russian Federation (the)
+654,RUS.SIB.ZK,Zabaykalsky Krai,0,1188,CTA-OO,Chita,CTA,30,3,Asia-Temperate,RUS,Russian Federation (the)
+655,RUS.TL,Tula,0,1189,RUC-OO,Central European Russia,RUC,14,1,Europe,RUS,Russian Federation (the)
+656,RUS.TV,Tver,0,1190,RUC-OO,Central European Russia,RUC,14,1,Europe,RUS,Russian Federation (the)
+657,RUS.VR,Voronezh,0,1191,RUC-OO,Central European Russia,RUC,14,1,Europe,RUS,Russian Federation (the)
+658,RWA,Rwanda,0,1192,RWA-OO,Rwanda,RWA,23,2,Africa,RWA,Rwanda
+659,SAU,Saudi Arabia,0,1193,SAU-OO,Saudi Arabia,SAU,35,3,Asia-Temperate,SAU,Saudi Arabia
+660,SDN,Sudan (incl. South Sudan),0,1194,SUD-OO,Sudan,SUD,24,2,Africa,SDN,Sudan (the)
+661,SEN,Senegal,0,1195,SEN-OO,Senegal,SEN,22,2,Africa,SEN,Senegal
+662,SGP,Singapore,1,1196,MLY-SI,Singapore,MLY,42,4,Asia-Tropical,SGP,Singapore
+663,SGS.SGI,South Georgia Island,1,1197,SGE-OO,South Georgia,SGE,90,9,Antarctic,SGS,South Georgia and the South Sandwich Islands
+664,SHN.AC,Ascension Island,1,32,ASC-OO,Ascension,ASC,28,2,Africa,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+665,SHN.GI,Gough Island,1,1198,TDC-OO,Tristan da Cunha,TDC,90,9,Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+666,SHN.II,Inaccessible Island,1,1199,TDC-OO,Tristan da Cunha,TDC,90,9,Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+667,SHN.NI,Nightingale,1,1200,TDC-OO,Tristan da Cunha,TDC,90,9,Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+668,SHN.SH,St Helena,1,432,STH-OO,St.Helena,STH,28,2,Africa,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+669,SHN.TC,Tristan da Cunha,1,1201,TDC-OO,Tristan da Cunha,TDC,90,9,Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+670,SLE,Sierra Leone,0,1202,SIE-OO,Sierra Leone,SIE,22,2,Africa,SLE,Sierra Leone
+671,SOM,Somalia,0,1203,SOM-OO,Somalia,SOM,24,2,Africa,SOM,Somalia
+672,SPM,Saint Pierre and Miquelon,1,1204,NFL-SP,St.Pierre-Miquelon,NFL,72,7,Northern America,SPM,Saint Pierre and Miquelon
+673,STP,Sao Tome and Principe,1,1205,000-06,Sao Tome and Principe,GGI,23,2,Africa,STP,Sao Tome and Principe
+674,SUR,Suriname,0,1206,SUR-OO,Surinam,SUR,82,8,Southern America,SUR,Suriname
+675,SVK,Slovakia,0,1207,CZE-SK,Slovakia,CZE,11,1,Europe,SVK,Slovakia
+676,SVN,Slovenia,0,1208,YUG-SL,Slovenia,YUG,13,1,Europe,SVN,Slovenia
+677,SWE,Sweden,0,1209,SWE-OO,Sweden,SWE,10,1,Europe,SWE,Sweden
+678,SWZ,Swaziland,0,1210,SWZ-OO,Swaziland,SWZ,27,2,Africa,SWZ,Swaziland
+679,SXM,Sint Maarten,1,1211,LEE-NL,Netherlands Leeward Is.,LEE,81,8,Southern America,ANT,Netherlands Antilles
+680,SYC.AFB,"African Banks, Seychelles",1,1212,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+681,SYC.ALD,"Aldabra, Seychelles",1,1213,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+682,SYC.ALP,"Alphonse, Seychelles",1,1214,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+683,SYC.ARI,"Aride, Seychelles",1,1215,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+684,SYC.ASS,"Assumption, Seychelles",1,1216,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+685,SYC.AST,"Astove, Seychelles",1,1217,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+686,SYC.BIR,"Bird, Seychelles",1,1218,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+687,SYC.BOI,"Booby Island, Seychelles",1,1219,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+688,SYC.COC,"Cocos, Seychelles",1,1220,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+689,SYC.COE,"Coetivy, Seychelles",1,1221,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+690,SYC.CON,"Conception, Seychelles",1,1222,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+691,SYC.COS,"Cosmoledo, Seychelles",1,1223,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+692,SYC.COU,"Cousin, Seychelles",1,1224,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+693,SYC.CSE,"Cousine, Seychelles",1,1225,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+694,SYC.CUR,"Curieuse, Seychelles",1,1226,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+695,SYC.DAR,"Darros, Seychelles",1,1227,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+696,SYC.DEN,"Denis, Seychelles",1,1228,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+697,SYC.DES,"Desroches, Seychelles",1,1229,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+698,SYC.DNO,"Desnoefs, Seychelles",1,1230,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+699,SYC.FAR,"Farquhar, Seychelles",1,1231,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+700,SYC.FEL,"Felicite, Seychelles",1,1232,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+701,SYC.FRE,"Fregate, Seychelles",1,1233,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+702,SYC.GSO,"Grande Soeur, Seychelles",1,1234,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+703,SYC.IAC,"Ile au Cerf, Seychelles",1,1235,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+704,SYC.IAN,"Ile Anonyme, Seychelles",1,1236,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+705,SYC.ILO,"Ile Longue, Seychelles",1,1237,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+706,SYC.ISA,"Ile St Anne, Seychelles",1,1238,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+707,SYC.IVM,"Ile aux Vaches Marines, Seychelles",1,1239,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+708,SYC.LDI,"La Digue, Seychelles",1,1240,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+709,SYC.MAH,"Mahe, Seychelles",1,1241,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+710,SYC.MAR,"Marianne, Seychelles",1,1242,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+711,SYC.MLO,"Marie-Louise, Seychelles",1,1243,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+712,SYC.NOI,"North Island, Seychelles",1,1244,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+713,SYC.PLA,"Platte, Seychelles",1,1245,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+714,SYC.POI,"Poivre, Seychelles",1,1246,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+715,SYC.PRA,"Praslin, Seychelles",1,1247,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+716,SYC.PRO,"Providence, Seychelles",1,1248,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+717,SYC.PSO,"Petit Soeur, Seychelles",1,1249,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+718,SYC.REC,"Recifs, Seychelles",1,1250,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+719,SYC.REM,"Remire, Seychelles",1,1251,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+720,SYC.SFR,"St Francois, Seychelles",1,1252,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+721,SYC.SIL,"Silhouette, Seychelles",1,1253,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+722,SYC.SJO,"St Joseph, Seychelles",1,1254,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+723,SYC.STP,"St Pierre, Seychelles",1,1255,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+724,SYC.THE,"Therese, Seychelles",1,1256,SEY-OO,Seychelles,SEY,29,2,Africa,SYC,Seychelles
+725,TCD,Chad,0,719,CHA-OO,Chad,CHA,24,2,Africa,TCD,Chad
+726,TGO,Togo,0,1258,TOG-OO,Togo,TOG,22,2,Africa,TGO,Togo
+727,THA,Thailand,0,1259,THA-OO,Thailand,THA,41,4,Asia-Tropical,THA,Thailand
+728,TON,Tonga,1,1260,TON-OO,Tonga,TON,60,6,Pacific,TON,Tonga
+729,TUN,Tunisia,0,1261,TUN-OO,Tunisia,TUN,20,2,Africa,TUN,Tunisia
+731,TWN,Taiwan,1,1263,TAI-OO,Taiwan,TAI,38,3,Asia-Temperate,TWN,Taiwan (Province of China)
+732,TZA,United Republic of Tanzania,0,1264,TAN-OO,Tanzania,TAN,25,2,Africa,TZA,"Tanzania, United Republic of"
+733,UGA,Uganda,0,1265,UGA-OO,Uganda,UGA,25,2,Africa,UGA,Uganda
+734,UKR,Ukraine,0,1266,UKR-UK,Ukraine,UKR,14,1,Europe,UKR,Ukraine
+735,URY,Uruguay,0,1267,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+736,USA.AK,Alaska,0,1268,ASK-OO,Alaska,ASK,70,7,Northern America,USA,United States of America (the)
+737,USA.AL,Alabama,0,1269,ALA-OO,Alabama,ALA,78,7,Northern America,USA,United States of America (the)
+738,USA.AR,Arkansas,0,1270,ARK-OO,Arkansas,ARK,78,7,Northern America,USA,United States of America (the)
+739,USA.AZ,Arizona,0,1271,ARI-OO,Arizona,ARI,76,7,Northern America,USA,United States of America (the)
+740,USA.CA,California,0,1272,CAL-OO,California,CAL,76,7,Northern America,USA,United States of America (the)
+741,USA.CO,Colorado,0,1273,COL-OO,Colorado,COL,73,7,Northern America,USA,United States of America (the)
+742,USA.CT,Connecticut,0,1274,CNT-OO,Connecticut,CNT,75,7,Northern America,USA,United States of America (the)
+743,USA.DC,Washington DC,0,1275,WDC-OO,District of Columbia,WDC,78,7,Northern America,USA,United States of America (the)
+744,USA.DE,Delaware,0,1276,DEL-OO,Delaware,DEL,78,7,Northern America,USA,United States of America (the)
+745,USA.FL,Florida,0,1277,FLA-OO,Florida,FLA,78,7,Northern America,USA,United States of America (the)
+746,USA.GA,Georgia,0,1278,GEO-OO,Georgia,GEO,78,7,Northern America,USA,United States of America (the)
+747,USA.HI.FFS,French Frigate Shoals,1,151,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+748,USA.HI.HAW,Hawai'i (Big Island),1,171,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+749,USA.HI.KAH,Kaho'olawe,1,214,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+750,USA.HI.KAR,Ka'ula Rock,1,213,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+751,USA.HI.KAU,Kaua'i,1,222,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+752,USA.HI.KUR,Kure,1,232,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+753,USA.HI.LAE,Läna'i,1,247,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+754,USA.HI.LAY,Laysan,1,249,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+755,USA.HI.LEH,Lehua,1,251,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+756,USA.HI.LIS,Lisianski,1,258,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+757,USA.HI.MAU,Maui,1,277,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+758,USA.HI.MID,Midway,1,286,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+759,USA.HI.MOL,Moloka'i,1,288,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+760,USA.HI.NIH,Nihoa,1,309,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+761,USA.HI.NII,Ni'ihau,1,307,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+762,USA.HI.OAH,O'ahu,1,321,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+763,USA.HI.PEH,Pearl & Hermes,1,356,HAW-HI,Hawaiian Is.,HAW,63,6,Pacific,USA,United States of America (the)
+764,USA.IA,Iowa,0,1280,IOW-OO,Iowa,IOW,74,7,Northern America,USA,United States of America (the)
+765,USA.ID,Idaho,0,1281,IDA-OO,Idaho,IDA,73,7,Northern America,USA,United States of America (the)
+766,USA.IL,Illinois,0,1282,ILL-OO,Illinois,ILL,74,7,Northern America,USA,United States of America (the)
+767,USA.IN,Indiana,0,1283,INI-OO,Indiana,INI,75,7,Northern America,USA,United States of America (the)
+768,USA.JI,Johnston Island,1,1284,HAW-JI,Johnston I.,HAW,63,6,Pacific,UMI,United States Minor Outlying Islands (the)
+769,USA.KS,Kansas,0,1285,KAN-OO,Kansas,KAN,74,7,Northern America,USA,United States of America (the)
+770,USA.KY,Kentucky,0,1286,KTY-OO,Kentucky,KTY,78,7,Northern America,USA,United States of America (the)
+771,USA.LA,Louisiana,0,1287,LOU-OO,Louisiana,LOU,78,7,Northern America,USA,United States of America (the)
+772,USA.MA,Massachusetts,0,1288,MAS-OO,Masachusettes,MAS,75,7,Northern America,USA,United States of America (the)
+773,USA.MD,Maryland,0,1289,MRY-OO,Maryland,MRY,78,7,Northern America,USA,United States of America (the)
+774,USA.ME,Maine,0,1290,MAI-OO,Maine,MAI,75,7,Northern America,USA,United States of America (the)
+775,USA.MI,Michigan,0,1291,MIC-OO,Michigan,MIC,75,7,Northern America,USA,United States of America (the)
+776,USA.MN,Minnesota,0,1292,MIN-OO,Minnesota,MIN,74,7,Northern America,USA,United States of America (the)
+777,USA.MO,Missouri,0,1293,MSO-OO,Missouri,MSO,74,7,Northern America,USA,United States of America (the)
+778,USA.MS,Mississippi,0,1294,MSI-OO,Mississippi,MSI,78,7,Northern America,USA,United States of America (the)
+779,USA.MT,Montana,0,1295,MNT-OO,Montana,MNT,73,7,Northern America,USA,United States of America (the)
+780,USA.NC,North Carolina,0,1296,NCA-OO,North Carolina,NCA,78,7,Northern America,USA,United States of America (the)
+781,USA.ND,North Dakota,0,1297,NDA-OO,North Dakota,NDA,74,7,Northern America,USA,United States of America (the)
+782,USA.NE,Nebraska,0,1298,NEB-OO,Nebraska,NEB,74,7,Northern America,USA,United States of America (the)
+783,USA.NH,New Hampshire,0,1299,NWH-OO,New Hampshire,NWH,75,7,Northern America,USA,United States of America (the)
+784,USA.NI,Navassa Island,1,1300,HAI-NI,Navassa I.,HAI,81,8,Southern America,UMI,United States Minor Outlying Islands (the)
+785,USA.NJ,New Jersey,0,1301,NWJ-OO,New Jersey,NWJ,75,7,Northern America,USA,United States of America (the)
+786,USA.NM,New Mexico,0,1302,NWM-OO,New Mexico,NWM,77,7,Northern America,USA,United States of America (the)
+787,USA.NV,Nevada,0,1303,NEV-OO,Nevada,NEV,76,7,Northern America,USA,United States of America (the)
+788,USA.NY,New York,0,1304,NWY-OO,New York,NWY,75,7,Northern America,USA,United States of America (the)
+789,USA.OH,Ohio,0,1305,OHI-OO,Ohio,OHI,75,7,Northern America,USA,United States of America (the)
+790,USA.OK,Oklahoma,0,1306,OKL-OO,Oklahoma,OKL,74,7,Northern America,USA,United States of America (the)
+791,USA.OR,Oregon,0,1307,ORE-OO,Oregon,ORE,73,7,Northern America,USA,United States of America (the)
+792,USA.PA,Pennsylvania,0,1308,PEN-OO,Pennsylvania,PEN,75,7,Northern America,USA,United States of America (the)
+793,USA.RI,Rhode Island,0,1309,RHO-OO,Rhode I.,RHO,75,7,Northern America,USA,United States of America (the)
+794,USA.SC,South Carolina,0,1310,SCA-OO,South Carolina,SCA,78,7,Northern America,USA,United States of America (the)
+795,USA.SD,South Dakota,0,1311,SDA-OO,South Dakota,SDA,74,7,Northern America,USA,United States of America (the)
+796,USA.TN,Tennessee,0,1312,TEN-OO,Tennessee,TEN,78,7,Northern America,USA,United States of America (the)
+797,USA.TX,Texas,0,1313,TEX-OO,Texas,TEX,77,7,Northern America,USA,United States of America (the)
+798,USA.UT,Utah,0,1314,UTA-OO,Utah,UTA,76,7,Northern America,USA,United States of America (the)
+799,USA.VA,Virginia,0,1315,VRG-OO,Virginia,VRG,78,7,Northern America,USA,United States of America (the)
+800,USA.VI,United States Virgin Islands,1,1316,LEE-VI,Virgin Is.,LEE,81,8,Southern America,VIR,Virgin Islands (U.S.)
+801,USA.VT,Vermont,0,1317,VER-OO,Vermont,VER,75,7,Northern America,USA,United States of America (the)
+802,USA.WA,Washington,0,1318,WAS-OO,Washington,WAS,73,7,Northern America,USA,United States of America (the)
+803,USA.WI,Wisconsin,0,1319,WIS-OO,Wisconsin,WIS,74,7,Northern America,USA,United States of America (the)
+804,USA.WV,West Virginia,0,1320,WVA-OO,West Virginia,WVA,75,7,Northern America,USA,United States of America (the)
+805,USA.WY,Wyoming,0,1321,WYO-OO,Wyoming,WYO,73,7,Northern America,USA,United States of America (the)
+806,VCT.GR,The Grenadines,1,1322,WIN-SV,St.Vincent,WIN,81,8,Southern America,VCT,Saint Vincent and the Grenadines
+807,VCT.SV,Saint Vincent,1,1323,WIN-SV,St.Vincent,WIN,81,8,Southern America,VCT,Saint Vincent and the Grenadines
+808,VEN,Venezuela,0,1324,VEN-OO,Venezuela,VEN,82,8,Southern America,VEN,Venezuela (Bolivarian Republic of)
+809,VGB.AN,"Anegada, British Virgin Islands",1,1325,LEE-BV,British Virgin Is.,LEE,81,8,Southern America,VGB,Virgin Islands (British)
+810,VGB.GI,"Guana Island, British Virgin Islands",1,1326,LEE-BV,British Virgin Is.,LEE,81,8,Southern America,VGB,Virgin Islands (British)
+811,VGB.JD,"Jost van Dyke, British Virgin Islands",1,1327,LEE-BV,British Virgin Is.,LEE,81,8,Southern America,VGB,Virgin Islands (British)
+812,VGB.TO,"Tortola, British Virgin Islands",1,1328,LEE-BV,British Virgin Is.,LEE,81,8,Southern America,VGB,Virgin Islands (British)
+813,VGB.VG,"Virgin Gorda, British Virgin Islands",1,1329,LEE-BV,British Virgin Is.,LEE,81,8,Southern America,VGB,Virgin Islands (British)
+814,WSM.FAU,Fanuatapu,1,1330,SAM-WS,Samoa,SAM,60,6,Pacific,WSM,Samoa
+815,WSM.NAA,Namua,1,1331,SAM-WS,Samoa,SAM,60,6,Pacific,WSM,Samoa
+816,WSM.NUA,Nuulua,1,1332,SAM-WS,Samoa,SAM,60,6,Pacific,WSM,Samoa
+817,WSM.NUE,Nuutela,1,1333,SAM-WS,Samoa,SAM,60,6,Pacific,WSM,Samoa
+818,YEM,Yemen,0,1334,000-07,Yemen,6,35,3,Asia-Temperate,YEM,Yemen
+819,ZAF.EC,Eastern Cape,0,1335,CPP-EC,Eastern Cape Province,CPP,27,2,Africa,ZAF,South Africa
+820,ZAF.FS,Orange Free State,0,1336,OFS-OO,Free State,OFS,27,2,Africa,ZAF,South Africa
+821,ZAF.GA,Gauteng,0,1337,TVL-GA,Gauteng,TVL,27,2,Africa,ZAF,South Africa
+822,ZAF.KZN,KwaZulu-Natal,0,1338,NAT-OO,KwaZulu-Natal,NAT,27,2,Africa,ZAF,South Africa
+823,ZAF.LI,Limpopo,0,1339,TVL-NP,Northern Province,TVL,27,2,Africa,ZAF,South Africa
+824,ZAF.MI,Marion Island,1,1340,MPE-OO,Marion-Prince Edward Is.,MPE,90,9,Antarctic,ZAF,South Africa
+825,ZAF.MP,Mpumalanga,0,1341,TVL-MP,Mpumalanga,TVL,27,2,Africa,ZAF,South Africa
+826,ZAF.NC,Northern Cape,0,1342,CPP-NC,Northern Cape Province,CPP,27,2,Africa,ZAF,South Africa
+827,ZAF.NW,North West,0,1343,TVL-NW,North-West Province,TVL,27,2,Africa,ZAF,South Africa
+828,ZAF.PEI,"Prince Edward Island, South Africa",1,1344,MPE-OO,Marion-Prince Edward Is.,MPE,90,9,Antarctic,ZAF,South Africa
+829,ZAF.WC,Western Cape,0,1345,CPP-WC,Western Cape Province,CPP,27,2,Africa,ZAF,South Africa
+830,ZMB.CE,Central,0,1346,ZAM-OO,Zambia,ZAM,26,2,Africa,ZMB,Zambia
+831,ZMB.CO,Copperbelt,0,1347,ZAM-OO,Zambia,ZAM,26,2,Africa,ZMB,Zambia
+832,ZMB.EA,Eastern,0,1348,ZAM-OO,Zambia,ZAM,26,2,Africa,ZMB,Zambia
+833,ZMB.LP,Luapula,0,1349,ZAM-OO,Zambia,ZAM,26,2,Africa,ZMB,Zambia
+834,ZMB.LS,Lusaka,0,1350,ZAM-OO,Zambia,ZAM,26,2,Africa,ZMB,Zambia
+835,ZMB.NO,Northern,0,1351,ZAM-OO,Zambia,ZAM,26,2,Africa,ZMB,Zambia
+836,ZMB.NW,North-western,0,1352,ZAM-OO,Zambia,ZAM,26,2,Africa,ZMB,Zambia
+837,ZMB.SO,Southern,0,1353,ZAM-OO,Zambia,ZAM,26,2,Africa,ZMB,Zambia
+838,ZMB.WE,Western,0,1354,ZAM-OO,Zambia,ZAM,26,2,Africa,ZMB,Zambia
+839,ZWE.C,Central region,0,1355,ZIM-OO,Zimbabwe,ZIM,26,2,Africa,ZWE,Zimbabwe
+840,ZWE.E,Eastern region,0,1356,ZIM-OO,Zimbabwe,ZIM,26,2,Africa,ZWE,Zimbabwe
+841,ZWE.N,Northern region,0,1357,ZIM-OO,Zimbabwe,ZIM,26,2,Africa,ZWE,Zimbabwe
+842,ZWE.S,Southern region,0,1358,ZIM-OO,Zimbabwe,ZIM,26,2,Africa,ZWE,Zimbabwe
+843,ZWE.W,Western region,0,1359,ZIM-OO,Zimbabwe,ZIM,26,2,Africa,ZWE,Zimbabwe
+889,TUR,Turkey,0,463,000-29,Turkey,28,102,0,mixed,TUR,Turkey
+900,IRN,Iran (Islamic Republic of),0,198,IRN-OO,Iran,IRN,34,3,Asia-Temperate,IRN,Iran (Islamic Republic of)
+901,NZL.KEI,Kermadec Islands,1,227,KER-OO,Kermadec Is.,KER,51,5,Australasia,NZL,New Zealand
+902,MNG,Mongolia,0,290,MON-OO,Mongolia,MON,37,3,Asia-Temperate,MNG,Mongolia
+908,AFG,Afghanistan,0,2,AFG-OO,Afghanistan,AFG,34,3,Asia-Temperate,AFG,Afghanistan
+909,ARM,Armenia,0,26,TCS-AR,Armenia,TCS,33,3,Asia-Temperate,ARM,Armenia
+910,AUT.BUR,Burgenland,0,60,AUT-AU,Austria,AUT,11,1,Europe,AUT,Austria
+911,AUT.VIE,Wien,0,499,AUT-AU,Austria,AUT,11,1,Europe,AUT,Austria
+912,AUT.LOW,Niederösterreich,0,308,AUT-AU,Austria,AUT,11,1,Europe,AUT,Austria
+913,AUT.UPP,Oberösterreich,0,323,AUT-AU,Austria,AUT,11,1,Europe,AUT,Austria
+914,AUT.STY,Steiermark,0,436,AUT-AU,Austria,AUT,11,1,Europe,AUT,Austria
+915,AUT.CAR,Kärnten,0,220,AUT-AU,Austria,AUT,11,1,Europe,AUT,Austria
+916,AUT.SAL,Salzburg,0,382,AUT-AU,Austria,AUT,11,1,Europe,AUT,Austria
+917,AUT.TYR,Tirol,0,457,AUT-AU,Austria,AUT,11,1,Europe,AUT,Austria
+918,AUT.VOR,Vorarlberg,0,490,AUT-AU,Austria,AUT,11,1,Europe,AUT,Austria
+919,PRY,Paraguay,0,354,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+920,ARE,United Arab Emirates,0,471,GST-UA,United Arab Emirates,GST,35,3,Asia-Temperate,ARE,United Arab Emirates (the)
+921,PNG,Papua New Guinea,1,353,000-34,Papua New Guinea,29,43,4,Asia-Tropical,PNG,Papua New Guinea
+922,BGD,Bangladesh,0,40,BAN-OO,Bangladesh,BAN,40,4,Asia-Tropical,BGD,Bangladesh
+923,MEX.BCN,Baja California Norte,0,955,MXN-BC,Baja California,MXN,79,7,Northern America,MEX,Mexico
+924,MEX.BCS,Baja California Sur,0,956,MXN-BS,Baja California Sur,MXN,79,7,Northern America,MEX,Mexico
+925,FRA.REU,Reunion,1,243,REU-OO,R‚union,REU,29,2,Africa,REU,R‚union
+971,ECU.GAL.ESP,Española,1,130,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+972,ECU.GAL.FER,Fernandina,1,138,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+973,ECU.GAL.FLO,Floreana,1,145,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+974,ECU.GAL.GEN,Genovesa,1,158,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+975,ECU.GAL.ISA,Isabela,1,202,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+977,ECU.GAL.PNT,Pinta,1,361,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+978,ECU.GAL.PNZ,Pinzón,1,362,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+979,ECU.GAL.CRI,San Cristóbal,1,386,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+980,ECU.GAL.CRU,Santa Cruz,1,396,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+981,ECU.GAL.SFE,Santa Fé,1,397,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+982,ECU.GAL.SAN,Santiago,1,403,GAL-OO,Gal pagos,GAL,83,8,Southern America,ECU,Ecuador
+984,PRT.AZO.MAR,Santa Maria,1,399,AZO-OO,A‡“res,AZO,21,2,Africa,PRT,Portugal
+985,PRT.AZO.MIG,São Miguel,1,406,AZO-OO,A‡“res,AZO,21,2,Africa,PRT,Portugal
+986,PRT.AZO.TER,Terceira,1,453,AZO-OO,A‡“res,AZO,21,2,Africa,PRT,Portugal
+987,PRT.AZO.GRA,Graciosa,1,160,AZO-OO,A‡“res,AZO,21,2,Africa,PRT,Portugal
+988,PRT.AZO.JOR,São Jorge,1,405,AZO-OO,A‡“res,AZO,21,2,Africa,PRT,Portugal
+989,PRT.AZO.PIC,Pico,1,359,AZO-OO,A‡“res,AZO,21,2,Africa,PRT,Portugal
+990,PRT.AZO.FAI,Faial,1,132,AZO-OO,A‡“res,AZO,21,2,Africa,PRT,Portugal
+991,PRT.AZO.FLO,Flores,1,146,AZO-OO,A‡“res,AZO,21,2,Africa,PRT,Portugal
+992,PRT.AZO.COR,Corvo,1,102,AZO-OO,A‡“res,AZO,21,2,Africa,PRT,Portugal
+993,ESH,Western Sahara,0,495,WSA-OO,Western Sahara,WSA,20,2,Africa,ESH,Western Sahara*
+994,GAM,Gambia,0,154,GAM-OO,"Gambia, The",GAM,22,2,Africa,GMB,Gambia (the)
+999,FRA.MAY,Mayotte,1,1389,COM-MA,Mayotte,COM,29,2,Africa,MYT,Mayotte
+1001,MDV,Maldives,1,1400,MDV-OO,Maldives,MDV,40,4,Asia-Tropical,MDV,Maldives
+1111,COL.AMA,"Department of Amazonas, Colombia",0,1402,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1112,COL.ANT,"Department of Antioquia, Colombia",0,1412,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1113,COL.ARA,"Department of Arauca, Colombia",0,1432,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1114,COL.ATL,"Department of Atlántico, Colombia",0,1499,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1115,COL.BOL,"Department of Bolívar, Colombia",0,1431,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1116,COL.BOY,"Department of Boyacá, Colombia",0,1440,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1117,COL.CAL,"Department of Caldas, Colombia",0,1486,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1118,COL.CAQ,"Department of Caquetá, Colombia",0,1405,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1119,COL.CAS,"Department of Casanare, Colombia",0,1418,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1120,COL.CAU,"Department of Cauca, Colombia",0,1430,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1121,COL.CES,"Department of Cesar, Colombia",0,1441,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1122,COL.CHO,"Department of Chocó, Colombia",0,1416,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1123,COL.COR,"Department of Córdoba, Colombia",0,1434,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1124,COL.CUN,"Department of Cundinamarca, Colombia",0,1435,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1125,COL.GUA,"Department of Guainía, Colombia",0,1409,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1126,COL.GUV,"Department of Guaviare, Colombia",0,1413,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1127,COL.HUI,"Department of Huila, Colombia",0,1450,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1128,COL.GUJ,"Department of La Guajira, Colombia",0,1448,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1129,COL.MAG,"Department of Magdalena, Colombia",0,1445,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1130,COL.MET,"Department of Meta, Colombia",0,1406,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1131,COL.NAR,"Department of Nariño, Colombia",0,1427,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1132,COL.NOR,"Department of Norte de Santander, Colombia",0,1442,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1133,COL.PUT,"Department of Putumayo, Colombia",0,1437,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1134,COL.QUI,"Department of Quindío, Colombia",0,1507,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1135,COL.RIS,"Department of Risaralda, Colombia",0,1500,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1136,COL.SPS,"Department of San Andrés, Providencia y Santa Catalina, Colombia",1,1509,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1137,COL.SAN,"Department of Santander, Colombia",0,1428,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1138,COL.SUC,"Department of Sucre, Colombia",0,1474,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1139,COL.TOL,"Department of Tolima, Colombia",0,1439,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1140,COL.VAL,"Department of Valle del Cauca, Colombia",0,1444,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1141,COL.VAU,"Department of Vaupés, Colombia",0,1414,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1142,COL.VIC,"Department of Vichada, Colombia",0,1404,CLM-OO,Colombia,CLM,83,8,Southern America,COL,Colombia
+1143,ECU.AZU,"Department of Azuay, Ecuador",0,1485,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1144,ECU.BOL,"Department of Bolívar, Ecuador",0,1501,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1145,ECU.CAN,"Department of Cañar, Ecuador",0,1505,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1146,ECU.CAR,"Department of Carchi, Ecuador",0,1503,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1147,ECU.CHI,"Department of Chimborazo, Ecuador",0,1488,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1148,ECU.COT,"Department of Cotopaxi, Ecuador",0,1490,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1149,ECU.ORO,"Department of El.Oro, Ecuador",0,1491,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1150,ECU.ESM,"Department of Esmeraldas, Ecuador",0,1460,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1151,ECU.GUA,"Department of Guayas, Ecuador",0,1451,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1152,ECU.IMB,"Department of Imbabura, Ecuador",0,1497,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1153,ECU.LOJ,"Department of Loja, Ecuador",0,1472,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1154,ECU.RIO,"Department of Los.Ríos, Ecuador",0,1487,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1155,ECU.MAN,"Department of Manabí, Ecuador",0,1452,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1156,ECU.MOR,"Department of Morona.Santiago, Ecuador",0,1436,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1157,ECU.NAP,"Department of Napo, Ecuador",0,1425,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1158,ECU.PAS,"Department of Pastaza, Ecuador",0,1429,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1159,ECU.PIC,"Department of Pichincha, Ecuador",0,1464,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1160,ECU.SUC,"Department of Sucumbíos, Ecuador",0,1454,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1161,ECU.TUN,"Department of Tungurahua, Ecuador",0,1504,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1162,ECU.ZAM,"Department of Zamora.Chinchipe, Ecuador",0,1476,ECU-OO,Ecuador,ECU,83,8,Southern America,ECU,Ecuador
+1163,PRY.ALT,"Department of Alto Paraná, Paraguay",0,1463,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1164,PRY.AMA,"Department of Amambay, Paraguay",0,1468,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1165,PRY.CAG,"Department of Caaguazú, Paraguay",0,1467,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1166,PRY.CAZ,"Department of Caazapá, Paraguay",0,1479,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1167,PRY.CAN,"Department of Canindeyú, Paraguay",0,1461,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1168,PRY.CEN,"Department of Central, Paraguay",0,1506,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1169,PRY.CON,"Department of Conceptión, Paraguay",0,1453,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1170,PRY.COR,"Department of Cordillera, Paraguay",0,1496,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1171,PRY.GUA,"Department of Guairá, Paraguay",0,1502,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1174,PRY.NEE,"Department of Ñeembucú, Paraguay",0,1471,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1175,PRY.PAR,"Department of Paraguarí, Paraguay",0,1484,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1176,PRY.SAN,"Department of San Pedro, Paraguay",0,1449,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1202,URY.CAN,"Department of Canelones, Uruguay",0,1495,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1203,URY.CER,"Department of Cerro Largo, Uruguay",0,1466,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1204,URY.COL,"Department of Colonia, Uruguay",0,1489,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1205,URY.DUR,"Department of Durazno, Uruguay",0,1469,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1207,URY.FLA,"Department of Florida, Uruguay",0,1475,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1208,URY.LAV,"Department of Lavelleja, Uruguay",0,1470,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1209,URY.MAL,"Department of Maldonado, Uruguay",0,1494,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1210,URY.MON,"Department of Montevideo, Uruguay",0,1508,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1211,URY.PAY,"Department of Paysandú, Uruguay",0,1465,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1212,URY.RIO,"Department of Río Negro, Uruguay",0,1483,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1213,URY.RIV,"Department of Rivera, Uruguay",0,1477,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1214,URY.ROC,"Department of Rocha, Uruguay",0,1473,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1216,URY.SAN,"Department of San José, Uruguay",0,1492,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1217,URY.SOR,"Department of Soriano, Uruguay",0,1482,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1219,URY.TAC,"Department of Tacuarembó, Uruguay",0,1459,URU-OO,Uruguay,URU,85,8,Southern America,URY,Uruguay
+1220,CHL.RTA,"Región de Tarapacá and Arica and Parinacota, Chile",0,451,CLN-TA,Tarapaca,CLN,85,8,Southern America,CHL,Chile
+1221,CHL.RAN,"Región de Antofagasta, Chile",0,713,CLN-AN,Antofagasta,CLN,85,8,Southern America,CHL,Chile
+1222,CHL.RAT,"Región de Atacama, Chile",0,34,CLN-AT,Atacama,CLN,85,8,Southern America,CHL,Chile
+1223,CHL.RCO,"Región de Coquimbo, Chile",0,100,CLC-CO,Coquimbo,CLC,85,8,Southern America,CHL,Chile
+1224,CHL.RVA,"Región de Valparaíso, Chile",0,480,CLC-VA,Valpara¡so,CLC,85,8,Southern America,CHL,Chile
+1225,CHL.RLI,"Región del Libertador General Bernardo O'Higgins, Chile",0,254,CLC-OH,O'Higgins,CLC,85,8,Southern America,CHL,Chile
+1226,CHL.RMU,"Región del Maule, Chile",0,278,CLC-MA,Maule,CLC,85,8,Southern America,CHL,Chile
+1227,CHL.RBI,"Región del Bío Bío, Chile",0,44,CLC-BI,Biob¡o,CLC,85,8,Southern America,CHL,Chile
+1228,CHL.RAR,"Región de La Araucanía, Chile",0,1510,CLC-LA,La Araucania,CLC,85,8,Southern America,CHL,Chile
+1229,CHL.RLL,"Región de Los Lagos, Chile",0,261,CLS-LL,Los Lagos,CLS,85,8,Southern America,CHL,Chile
+1230,CHL.RAI,"Región Aisén del General Carlos Ibáñez del Campo, Chile",0,36,CLS-AI,Ais‚n,CLS,85,8,Southern America,CHL,Chile
+1231,CHL.RMG,"Región de Magallanes y de la Antártica Chilena, Chile",0,265,CLS-MG,Magellanes,CLS,85,8,Southern America,CHL,Chile
+1232,CHL.RSA,"Región Metropolitana de Santiago, Chile",0,401,CLC-SA,Santiago,CLC,85,8,Southern America,CHL,Chile
+1233,MUS.RO,Rodrigues (Mauritius),1,373,ROD-OO,Rodrigues,ROD,29,2,Africa,MUS,Mauritius
+1234,CHL.JNF,Juan Fernandez Islands,1,211,JNF-OO,Juan Fern ndez Is.,JNF,85,8,Southern America,CHL,Chile
+1235,VEN.BOL,"State of Bolívar, Venezuela",0,1511,VEN-OO,Venezuela,VEN,82,8,Southern America,VEN,Venezuela (Bolivarian Republic of)
+1236,VEN.AMZ,"State of Amazonas, Venezuela",0,1512,VEN-OO,Venezuela,VEN,82,8,Southern America,VEN,Venezuela (Bolivarian Republic of)
+1237,VEN.AMC,"State of Delta Amacuro, Venezuela",0,1513,VEN-OO,Venezuela,VEN,82,8,Southern America,VEN,Venezuela (Bolivarian Republic of)
+1238,BOL.SCR,"Region de Santa Cruz, Bolivia",0,1514,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+1239,BOL.BEN,"Region del Beni, Bolivia",0,1515,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+1240,BOL.LPA,"Region de La Paz, Bolivia",0,1516,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+1241,BOL.POT,"Region de Potosí, Bolivia",0,1517,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+1242,BOL.PAN,"Region de Pando, Bolivia",0,1518,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+1243,BOL.COC,"Region de Cochabamba, Bolivia",0,1519,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+1244,BOL.ORU,"Region de Oruro, Bolivia",0,1520,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+1245,BOL.CHU,"Region de Chuquisaca, Bolivia",0,1521,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+1246,BOL.TAR,"Region de Tarija, Bolivia",0,1522,BOL-OO,Bolivia,BOL,83,8,Southern America,BOL,Bolivia (Plurinational State of)
+1247,RUS.UL,"Ulyanovsk Oblast, Russian Federation",0,1523,RUC-OO,Central European Russia,RUC,14,1,Europe,RUS,Russian Federation (the)
+1248,PRY.BOQ,"Boquerón, Paraguay",0,1524,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1249,PRY.ALP,"Alto Paraguay, Paraguay",0,1525,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1250,PRY.HAY,"Presidente Hayes, Paraguay",0,1526,PAR-OO,Paraguay,PAR,85,8,Southern America,PRY,Paraguay
+1252,CHL.EAS,"Easter Island, Chile",1,124,EAS-OO,Easter Is.,EAS,61,6,Pacific,CHL,Chile
+1256,NZL.NOI,New Zealand North Island,1,1528,NZN-OO,New Zealand North,NZN,51,5,Australasia,NZL,New Zealand
+1257,NZL.SOI,New Zealand South Island (without Stewart Island etc.),1,1529,NZS-OO,New Zealand South,NZS,51,5,Australasia,NZL,New Zealand
+1258,NZL.STI,New Zealand Stewart Island,1,1530,NZS-OO,New Zealand South,NZS,51,5,Australasia,NZL,New Zealand
+1259,TJK.KUR,Kuram,0,1531,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1260,TJK.MOG,Mogoltausian,0,1532,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1261,TJK.PRI,Prisyrdarian,0,1533,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1262,TJK.TUA,Turkestanian A,0,1534,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1263,TJK.TUB,Turkestanian B,0,1535,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1264,TJK.ZEA,Zeravshanian A,0,1536,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1265,TJK.ZEB,Zeravshanian B,0,1537,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1266,TJK.ZEC,Zeravshanian C,0,1538,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1267,TJK.HDA,Hissaro-Darvasian A,0,1539,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1268,TJK.HDB,Hissaro-Darvasian B,0,1540,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1269,TJK.HDC,Hissaro-Darvasian C,0,1541,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1270,TJK.HDD,Hissaro-Darvasian D,0,1542,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1271,TJK.HDE,Hissaro-Darvasian E,0,1543,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1272,TJK.HDF,Hissaro-Darvasian F,0,1544,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1273,TJK.STA,South Tajikistanian A,0,1545,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1274,TJK.STB,South Tajikistanian B,0,1546,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1275,TJK.STC,South Tajikistanian C,0,1547,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1276,TJK.STD,South Tajikistanian D,0,1548,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1277,TJK.ETA,Eastern Tajikistanian A,0,1549,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1278,TJK.ETB,Eastern Tajikistanian B,0,1550,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1279,TJK.ETC,Eastern Tajikistanian C,0,1551,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1280,TJK.WPA,Western Pamirian A,0,1552,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1281,TJK.WPB,Western Pamirian B,0,1553,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1282,TJK.WPC,Western Pamirian C,0,1554,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1283,TJK.EPA,Eastern Pamirian,0,1555,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1284,TJK.ALA,Alayan,0,1556,TZK-OO,Tadzhikistan,TZK,32,3,Asia-Temperate,TJK,Tajikistan
+1285,DEU.BW,"Baden-Württemberg, Germany",0,1557,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1286,DEU.BY,"Bayern, Germany",0,1558,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1287,DEU.BE,"Berlin, Germany",0,1559,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1288,DEU.BB,"Brandenburg, Germany",0,1560,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1289,DEU.HB,"Bremen, Germany",0,1561,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1290,DEU.HH,"Hamburg, Germany",0,1562,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1291,DEU.HE,"Hessen, Germany",0,1563,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1292,DEU.MV,"Mecklenburg-Vorpommern, Germany",0,1564,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1293,DEU.NI,"Niedersachsen, Germany",0,1565,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1294,DEU.NW,"Nordrhein-Westfalen, Germany",0,1566,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1295,DEU.RP,"Rheinland-Pfalz, Germany",0,1567,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1296,DEU.SL,"Saarland, Germany",0,1568,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1297,DEU.ST,"Sachsen-Anhalt, Germany",0,1569,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1298,DEU.SN,"Sachsen, Germany",0,1570,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1299,DEU.SH,"Schleswig-Holstein, Germany",0,1571,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1300,DEU.TH,"Thüringen, Germany",0,1572,GER-OO,Germany,GER,11,1,Europe,DEU,Germany
+1301,USA.VI.STT,St. Thomas (Virgin Islands),1,435,LEE-VI,Virgin Is.,LEE,81,8,Southern America,VIR,Virgin Islands (U.S.)
+1302,USA.VI.STJ,St. John (Virgin Islands),1,433,LEE-VI,Virgin Is.,LEE,81,8,Southern America,VIR,Virgin Islands (U.S.)
+1303,USA.VI.STC,St. Croix (Virgin Islands),1,431,LEE-VI,Virgin Is.,LEE,81,8,Southern America,VIR,Virgin Islands (U.S.)
+530,PER,Peru,0,1068,PER-OO,Peru,PER,83,8,Southern America,PER,Peru

@@ -33,6 +33,46 @@ d %>% select(taxon_name) %>% distinct %>% nrow
 
 
 
+# pie/doughnut chart for viz
+data <- data.frame(
+  category = c("no", "yes"),
+  value = c(72.7, 27.3)
+)
+data <- data %>%
+  mutate(cumulative = c(65, 15),  # Position for labels
+         label = paste0(value, "%"))  # Add percentage labels
+
+
+# Create the chart
+ggplot(data, aes(x = 2, y = value, fill = category)) +
+  geom_bar(stat = "identity", width = 1) +  
+  coord_polar(theta = "y") +
+  theme_void() +  
+  xlim(0.5, 2.5) + 
+  labs(fill = "") +  
+  scale_fill_manual(values = c("#69acac", "#ff7062")) + 
+  theme(legend.position = "none") + 
+  geom_text(aes(x = 2, y = c(68, 12), label = c("No", "Yes")), 
+            color = "white", size = 6, fontface = "bold", 
+            family = "Arial Narrow", hjust = 0) +
+  geom_text(aes(x = 2, y = c(65, 15), label = paste0(value, "%")), 
+            color = "white", size = 5,
+            family = "Arial Narrow") +
+  annotate("text", x = 1.5, y = 0, 
+           label = "Naturalizing species\nthreatened in parts of\ntheir native ranges", 
+           color = "#06576D", size = 4.5,lineheight = 0.8,
+           hjust = 0.5, vjust = 2,
+           family = "Arial Narrow") +
+  annotate("text", x = 1.5, y = 0, 
+           label = "N = 9,195\nspecies assessed", 
+           color = "grey40", size = 4, lineheight = 0.8,
+           hjust = 0.5, vjust = 6,
+           family = "Arial Narrow")
+
+ggsave("Figures/pie_chart.svg", height = 5, width = 5)
+
+
+
 
 # inspect now when countries are same -------------------------------------
 

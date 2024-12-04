@@ -543,64 +543,130 @@ color_gradient <- scale_fill_gradientn(
   na.value = "grey90"
 )
 
-ggplot(d, aes(x = nonnative_area_km2, 
-              y = threatened_area_km2,
-              size = ratio, fill = ratio)) +
-  geom_point(alpha = 0.6, shape = 21, col = "black") +
+(p0 <- ggplot(d, aes(x = nonnative_area_km2, 
+                                  y = threatened_area_km2,
+                                  size = ratio, fill = ratio)) +
+    geom_point(alpha = 0.6, shape = 21, col = "black") +
+    geom_point(alpha = 0.4, shape = 1, col = "white") +
+    color_gradient +
+    geom_abline(slope = 1, intercept = 1, col = "grey30", lty = "dashed", size = 0.3) +  # 1:1 line
+    geom_abline(slope = ma_slope, intercept = ma_intercept, color = '#06576D', size = 0.4) +  
+    scale_x_log10(limits = range_limit) +  
+    scale_y_log10(limits = range_limit) +  
+    scale_size_continuous(
+      name = "Native AOO threatened (%)",
+      labels = scales::percent_format(accuracy = 1)  # Convert to percentages
+    ) +
+    labs(x = 'AOO naturalized (km²)',
+         y = 'Native AOO threatened (km²)', tag = "a") + 
+    theme_minimal(base_family = "Arial Narrow", base_size = 13) +
+    guides(
+      size = guide_legend(
+        # No separate title in the legend
+        override.aes = list(fill = c('#c4e5c0', '#ebaf8f', '#f79178', '#ff6f61'), 
+                            alpha = 0.7, shape = 21, color = "white"),
+        direction = "horizontal"
+      ), 
+      fill = "none"
+    ) +
+    theme(
+      panel.grid.minor.x = element_blank(),
+      panel.grid.major.x = element_blank(),
+      panel.grid.minor.y = element_blank(),
+      axis.text = element_text(size = 13),
+      axis.title = element_text(size = 13),
+      legend.position = "top",  # Move the legend to the top
+      legend.direction = "horizontal",  # Arrange items horizontally
+      legend.box = "horizontal",  # Ensure horizontal box
+      legend.title = element_text(size = 12),  # Center the text above
+      legend.text = element_text(size = 11)  # Adjust size of legend text
+    )
+)
+
+
+# proportion net gain vs. partial compensation plot
+p1 <- d %>%
+  mutate(diff = nonnative_area_km2 - threatened_area_km2) %>% 
+  arrange(desc(diff)) %>%
+  mutate(rank = 1:nrow(.),
+         diff_sign = ifelse(diff >= 0, "positive", "negative"),
+         new_range = native_area_km2 + nonnative_area_km2 - threatened_area_km2) %>% 
+  ggplot(aes(x = rank, y = diff)) +
   geom_point(alpha = 0.4, shape = 1, col = "white") +
-  color_gradient +
-  geom_abline(slope = 1, intercept = 1, col = "grey30", lty = "dashed", size = 0.3) +  # 1:1 line
-  geom_abline(slope = ma_slope, intercept = ma_intercept, color = '#06576D', size = 0.4) +  
-  scale_x_log10(limits = range_limit) +  
-  scale_y_log10(limits = range_limit) +  
-  scale_size_continuous(
-    name = "Native AOO threatened (%)",
-    labels = scales::percent_format(accuracy = 1)  # Convert to percentages
-  ) +
-  labs(x = 'AOO naturalized (km²)',
-       y = 'Native AOO threatened (km²)') + 
+  geom_line(aes(color = diff_sign), size = 0.8, alpha = 0.5) + 
+  geom_ribbon(aes(ymin = 0, ymax = diff, fill = diff_sign), alpha = 0.3) + 
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_continuous(labels = scales::label_scientific()) +
+  scale_color_manual(values = c("positive" = "#06576D", "negative" = '#93003a')) + 
+  scale_fill_manual(values = c("positive" = "#06576D", "negative" = '#93003a')) +
+  labs(y = "AOO naturalized - threatened (km²)", tag = "b") +
   theme_minimal(base_family = "Arial Narrow", base_size = 13) +
-  guides(
-    size = guide_legend(
-       # No separate title in the legend
-      override.aes = list(fill = c('#c4e5c0', '#ebaf8f', '#f79178', '#ff6f61'), 
-                          alpha = 0.7, shape = 21, color = "white"),
-      direction = "horizontal"
-    ), 
-    fill = "none"
-  ) +
   theme(
+    legend.position = "none",
     panel.grid.minor.x = element_blank(),
     panel.grid.major.x = element_blank(),
     panel.grid.minor.y = element_blank(),
     axis.text = element_text(size = 13),
     axis.title = element_text(size = 13),
-    legend.position = "top",  # Move the legend to the top
-    legend.direction = "horizontal",  # Arrange items horizontally
-    legend.box = "horizontal",  # Ensure horizontal box
-    legend.title = element_text(size = 12),  # Center the text above
-    legend.text = element_text(size = 11)  # Adjust size of legend text
-  ) 
+    axis.text.x = element_blank(),
+    axis.title.x = element_blank(),
+    plot.margin = unit(c(0,0,0,0), "cm")
+  ) +
+  annotate("text", x = 0, y = Inf * 1.05, label = "Net increase", vjust = 1,
+           hjust = 0, size = 4, family = "Arial Narrow",
+           col = "#06576D") + 
+  annotate("text", x = Inf, y = Inf * 1.05, label = "Partial compensation", vjust = 1,
+           hjust = 1, size = 4, family = "Arial Narrow",
+           col = '#93003a') 
 
+p1
+
+
+# how many species do have net gains vs partial compensation
+d %>% mutate(type = ifelse(threatened_area_km2 > nonnative_area_km2, 
+                           "partial compensation",
+                           "net gain")) %>% 
+  count(type)
+
+data <- data.frame(
+  category = c("Net increase", "Partial compensation"),
+  percentage = c(59.6, 40.4),
+  group = c("Net increase", "Partial compensation")
+)
+
+data$group <- factor(data$group, levels = c("Partial compensation", "Net increase"))
+# Create a stacked horizontal bar plot
+p2 <- ggplot(data, aes(x = 1, y = percentage, fill = group)) +
+  geom_bar(stat = "identity", col = "white", width = 1.5, alpha = 0.6) +
+  coord_flip() + 
+  scale_y_continuous(expand = c(0, 0)) +
+  scale_x_continuous(limits = c(0, 2.5)) +
+  scale_fill_manual(values = c("Net increase" = "#06576D", 
+                               "Partial compensation" = "#93003a")) + 
+  geom_text(aes(label = paste0(percentage, "%")), family = "Arial Narrow",
+            position = position_stack(vjust = 0.5), size = 5, color = "white") +
+  labs(x = "", y = "") +
+  theme_void() +
+  theme(
+    axis.text = element_blank(),
+    legend.position = "none",
+    plot.margin = unit(c(0,0,0,0), "cm")
+  )+
+  annotate("text", x = 2.2, y = 0, label = "N = 1,716", 
+           hjust = 0, size = 4, family = "Arial Narrow", col = "grey40")
+
+
+p0/ p1 / p2 + plot_layout(heights = c(6, 6, 1))
 
 showtext_opts(dpi=600)
-ggsave("Figures/oneone.png", bg = "white", dpi = 600, height = 5, width = 6)
+ggsave("Figures/species_areas.png", dpi = 600, bg = "white", height = 7, width = 7)
 showtext_opts(dpi=96)
 
 
+
+# SI
 # paired wilcox test
 wilcox.test(d$nonnative_area_km2, d$threatened_area_km2, paired = TRUE)
-
-combined_plot <- fig_hist_main /
-  fig_oneone_main +
-  plot_annotation(
-    tag_levels = 'a')
-
-combined_plot
-
-showtext_opts(dpi=600)
-ggsave("Figures/species_areas.png", dpi = 600, bg = "white", height = 8, width = 8)
-showtext_opts(dpi=96)
 
 # bland altman plot for supplement
 d$mean_AOO <- (d$nonnative_area_km2 + d$threatened_area_km2) / 2
@@ -621,8 +687,3 @@ showtext_opts(dpi=600)
 ggsave("Figures/bland-altman.png", dpi = 600, bg = "white", height = 6, width = 6)
 showtext_opts(dpi=96)
 
-# how many species do have net gains vs partial compensation
-d %>% mutate(type = ifelse(threatened_area_km2 > nonnative_area_km2, 
-                           "partial compensation",
-                           "net gain")) %>% 
-  count(type)

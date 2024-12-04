@@ -98,7 +98,7 @@ ggplot(map_data_pruned, aes(x = reorder(Country_Name, -ratio))) +
   facet_wrap(.~Continent, scale = "free_y")+
     geom_col(aes(y = n), width = 0.7, fill = "#78c1b8") +
     geom_point(aes(y = ratio * max(n), color = "Threatened Ratio")) +
-    geom_hline(yintercept = 0.273* max(map_data_pruned$n), lty = "dashed", col = "grey30") +
+    geom_hline(yintercept = 0.29* max(map_data_pruned$n), lty = "dashed", col = "grey30") +
     scale_y_continuous(
       name = "# non-natives",
       sec.axis = sec_axis(~ . / max(map_data_pruned$n),

@@ -81,12 +81,12 @@ color_gradient <- scale_color_gradientn(
   labels = scales::label_percent()
 )
 
-# phylogenetic tree plot
+# phylogenetic tree plot for multipanel plot with world map (see R script 05)
 (fig_phylo <- ggtree(pruned_tree_data, layout = 'circular', ladderize = FALSE) +
   geom_tiplab(aes(label = family, color = perc), size = 1.5, family = "Arial Narrow") +
   color_gradient +
   theme(legend.position = "right") +
-  labs(color = "% threatened non-natives") +
+  labs(color = "Percentage of non-natives species threatened in native range") +
   theme_minimal(base_family = "Arial Narrow", base_size = 13) +  # Ensure the base size is the same
   theme(
     plot.margin = unit(c(0, 0, 0, 0), "cm"),
@@ -99,6 +99,38 @@ color_gradient <- scale_color_gradientn(
     axis.text = element_blank()
   ))
 
+
+# for single figure
+ggtree(pruned_tree_data, layout = 'circular', ladderize = FALSE) +
+  geom_tiplab(aes(label = family, color = perc), size = 2, family = "Arial Narrow") +
+  color_gradient +
+  labs(color = "Percentage of non-native species threatened in native range") +
+  theme_minimal(base_family = "Arial Narrow", base_size = 13) +
+  theme(
+    plot.margin = unit(c(0, 0, 0, 0), "cm"),
+    plot.title = element_text(face = "bold"),
+    panel.grid = element_blank(),
+    legend.position = "bottom",  # Move the legend to the bottom
+    legend.direction = "horizontal",  # Make the legend horizontal
+    legend.title = element_text(hjust = 0.5),  # Center the legend title
+    legend.text = element_text(size = 10),
+    legend.margin = margin(t = 5, r = 5, b = 5, l = 5),
+    legend.box.margin = margin(0, 0, 0, 0),
+    legend.spacing.x = unit(0.5, 'cm'),  # Add horizontal spacing in legend
+    axis.text = element_blank()
+  ) +
+  guides(color = guide_colourbar(
+    title.position = "top",  # Move title above color bar
+    title.hjust = 0.5,  # Center align title
+    direction = "horizontal",
+    barwidth = unit(8, "cm"),  # Adjust width of the color bar
+    barheight = unit(0.3, "cm")  # Adjust height of the color bar
+  ))
+
+
+showtext_opts(dpi=600)
+ggsave("Figures/phylo.png", dpi = 600, bg = "white", height = 7, width = 7)
+showtext_opts(dpi=96)
 
 # calculate phylogenetic signal -------------------------------------------
 

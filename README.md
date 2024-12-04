@@ -22,9 +22,9 @@ While all data are included, the Red List file
     taxonomically harmonized and country names standardized.
   - **`01b-data-prep-rl-naturalization.R`**: Merges Red List and GloNaF
     naturalization data.
-  - **`02-magnitude-paradox.R`**: Quantifies the number of non-native
-    plants threatened or near-threatened and examines the influence of
-    data completeness and neutral factors.
+  - **`02-data-analysis-magnitude-paradox.R`**: Quantifies the number of
+    non-native plants threatened or near-threatened and examines the
+    influence of data completeness and neutral factors.
   - **`03-data-analysis-gbif-range.R`**: Quantifies the Area of
     Occupancy (AOO) of threatened non-native species, distinguishing
     native, threatened, and non-native AOOs.

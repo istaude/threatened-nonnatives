@@ -263,13 +263,33 @@ length(all_species)
 # ok if empty and null elments are removed 2486 species have some gbif data
 
 # visualize a species as example
-# k = 19
+# k = 256
 species_list[k]
+which(species_list == "Barbarea vulgaris")
 ggplot() +
-  geom_sf(data = world) +
+  #geom_sf(data = world) +
   geom_sf(data = all_sf[[k]] %>% filter(status != "non-native"), col = "green") +
   geom_sf(data = all_sf[[k]] %>% filter(status == "threatened"), col= "red") +
   geom_sf(data = all_sf[[k]] %>% filter(status == "non-native"), col = "purple")
+
+
+# calculate mapping resolution for species with latitudinal spread
+x <- mvt_fetch(taxonKey = species_keys_df$usageKey[k], 
+          bin = "square", 
+          squareSize = 8,
+          hasCoordinateIssue = FALSE,
+          basisOfRecord = c("HUMAN_OBSERVATION", 
+                            "MACHINE_OBSERVATION", 
+                            "OBSERVATION"))
+ggplot() +
+  geom_sf(data = world) +
+  geom_sf(data = x,  col = "green") 
+
+b <- NULL
+for(i in 1:nrow(x)){
+  b[i] <-  x[i,] %>% st_area() / 1e6
+}
+range(b)
 
 
 # calculate the fraction of species range threatened ----------------------
@@ -436,6 +456,7 @@ write.csv(filtered_results, "Data/species_areas.csv", row.names = FALSE)
 # data visualization ------------------------------------------------------
 d <- read.csv("Data/species_areas.csv")
 d %>% arrange(desc(ratio))
+d %>% arrange((ratio)) %>% View
 quantile(d$ratio, na.rm = T)
 mean(d$ratio, na.rm = T)
 median(d$ratio, na.rm = T)
@@ -450,21 +471,44 @@ histogram_data <- ggplot_build(
     geom_histogram(binwidth = 0.05)
 )$data[[1]]
 max_count <- max(histogram_data$count)
+density_scaling_factor <- nrow(d) * 0.05 
 
 # histogram
-(fig_hist_main <- d %>% 
-    ggplot(aes(x = ratio)) +
-    geom_histogram(aes(y = after_stat(count)), fill = "grey", col = "white", binwidth = 0.05) + 
-    stat_ecdf(aes(y = ..y.. * max_count), geom = "step", color = "grey30") + 
-    scale_y_continuous(
-      name = "Count", 
-      sec.axis = sec_axis(~ . / max_count, name = "Cumulative density") 
-    ) +
-    scale_x_continuous(labels = scales::percent) +
-    geom_vline(xintercept = mean(d$ratio, na.rm = T), lty = 2, color = "grey30") +
-    labs(x = "% of native AOO threatened") +
-    theme_minimal(base_family = "Arial Narrow", base_size = 13) +
-    theme(panel.grid = element_blank()))
+d %>% 
+  ggplot(aes(x = ratio)) +
+  geom_histogram(aes(y = after_stat(count)), fill = "#ff7062", binwidth = 0.05) + 
+  geom_density(aes(y = ..density.. * density_scaling_factor), color = "#06576D", size =0.3) + 
+  #stat_ecdf(aes(y = ..y.. * max_count), geom = "step", color = "grey30") + 
+  scale_y_continuous(
+    position = "right"
+  ) +
+  scale_x_continuous(breaks = c(0.0, 0.25, 0.5, 0.75, 1), 
+                     expand = c(0, 0),
+                     labels = c(">0%", "25%", "50%", "75%", "100%")) +
+  labs(y ="No. of\nspecies", x = "Native AOO threatened (%)") +
+  theme_minimal(base_family = "Arial Narrow", base_size = 13) +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.text = element_text(size = 13),
+        axis.title.y.right = element_text(angle = 0,
+                                          lineheight = 0.8,
+                                          vjust = 1,
+                                          hjust = 0
+        )) +
+  annotate(
+    "segment", 
+    x = 0.136, xend = 0.136, 
+    y = 110, yend = 450, 
+    color = "#06576D", 
+    size = 0.3, 
+    linetype = "dotted", 
+    arrow = arrow(length = unit(0.13, "cm"), type = "closed", angle = 35)  # Solid arrowhead
+  ) +
+  annotate("text", x = 0.136, y = 475, label = "Average range at risk (13.6%)", 
+           color = "#06576D", size = 4.5, family = "Arial Narrow", hjust = 0.1)
+
+ggsave("Figures/histogram.svg", height = 5, width = 5)
+
 
 # how many have ranges that are 70% threatened
 d %>% filter(ratio >= 0.7) %>% nrow /
@@ -482,8 +526,6 @@ d %>% filter(ratio >= 0.9) %>% nrow /
 
 
 # one:one line with gains and losses in range
-
-# make scatterplot with 1:1 line 
 # have same range for both x and y axes
 range_limit <- range(c(d$nonnative_area_km2, d$threatened_area_km2))
 
@@ -495,17 +537,55 @@ ma_slope <- ma_mod$regression.results[ma_mod$regression.results$Method == "MA", 
 ma_slope_ci <- ma_mod$confidence.intervals[2, c("2.5%-Slope", "97.5%-Slope")]
 ma_intercept <- ma_mod$regression.results[ma_mod$regression.results$Method == "MA", "Intercept"]
 
-# Plot with major axis regression line
-(fig_oneone_main <- ggplot(d, aes(x = nonnative_area_km2, y = threatened_area_km2)) +
-  geom_point(alpha = 0.4, col = "#78c1b8") +
-  geom_abline(slope = 1, intercept = 1, col = "grey30", lty = "dashed") +  # 1:1 line
-  geom_abline(slope = ma_slope, intercept = ma_intercept, color = "#FF6F61") +  
+color_gradient <- scale_fill_gradientn(
+  colours = c('#c4e5c0', '#dbcaa8', '#ebaf8f', '#f79178', '#ff6f61'),
+  breaks = c(0.0, 0.25, 0.5, 0.75, 1),  # Breaks corresponding to the labels
+  na.value = "grey90"
+)
+
+ggplot(d, aes(x = nonnative_area_km2, 
+              y = threatened_area_km2,
+              size = ratio, fill = ratio)) +
+  geom_point(alpha = 0.6, shape = 21, col = "black") +
+  geom_point(alpha = 0.4, shape = 1, col = "white") +
+  color_gradient +
+  geom_abline(slope = 1, intercept = 1, col = "grey30", lty = "dashed", size = 0.3) +  # 1:1 line
+  geom_abline(slope = ma_slope, intercept = ma_intercept, color = '#06576D', size = 0.4) +  
   scale_x_log10(limits = range_limit) +  
   scale_y_log10(limits = range_limit) +  
+  scale_size_continuous(
+    name = "Native AOO threatened (%)",
+    labels = scales::percent_format(accuracy = 1)  # Convert to percentages
+  ) +
   labs(x = 'AOO naturalized (km²)',
-       y = 'AOO threatened (km²)') +
+       y = 'Native AOO threatened (km²)') + 
   theme_minimal(base_family = "Arial Narrow", base_size = 13) +
-  theme(panel.grid = element_blank()))
+  guides(
+    size = guide_legend(
+       # No separate title in the legend
+      override.aes = list(fill = c('#c4e5c0', '#ebaf8f', '#f79178', '#ff6f61'), 
+                          alpha = 0.7, shape = 21, color = "white"),
+      direction = "horizontal"
+    ), 
+    fill = "none"
+  ) +
+  theme(
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.y = element_blank(),
+    axis.text = element_text(size = 13),
+    axis.title = element_text(size = 13),
+    legend.position = "top",  # Move the legend to the top
+    legend.direction = "horizontal",  # Arrange items horizontally
+    legend.box = "horizontal",  # Ensure horizontal box
+    legend.title = element_text(size = 12),  # Center the text above
+    legend.text = element_text(size = 11)  # Adjust size of legend text
+  ) 
+
+
+showtext_opts(dpi=600)
+ggsave("Figures/oneone.png", bg = "white", dpi = 600, height = 5, width = 6)
+showtext_opts(dpi=96)
 
 
 # paired wilcox test
@@ -540,3 +620,9 @@ ggplot(d, aes(x = mean_AOO, y = difference_AOO)) +
 showtext_opts(dpi=600)
 ggsave("Figures/bland-altman.png", dpi = 600, bg = "white", height = 6, width = 6)
 showtext_opts(dpi=96)
+
+# how many species do have net gains vs partial compensation
+d %>% mutate(type = ifelse(threatened_area_km2 > nonnative_area_km2, 
+                           "partial compensation",
+                           "net gain")) %>% 
+  count(type)

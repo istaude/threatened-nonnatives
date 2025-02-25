@@ -156,7 +156,7 @@ all <- left_join(all_specs, all_range) %>%
 # raw data plot
 ggplot(all, aes(x = range, y = status)) +
   geom_jitter(alpha = 0.05, height = 0.05, size = 0.1, col = "#95846d") + 
-  geom_smooth(col = "#FAC55F") +
+  geom_smooth(col = "#FAC55F", fill = "#FAC55F") +
   labs(
     x = "Range size (# botanical countries in which spp. is native)",
     y = "Probability of being threatened"
@@ -184,7 +184,8 @@ gam_model <- gam(threatened_prob ~ s(median_range, k = 10), data = binned_data)
 summary(gam_model)
 ggplot(binned_data, aes(x = median_range, y = threatened_prob)) +
   geom_point(col = "#95846d") +
-  geom_smooth(method = "gam", formula = y ~ s(x, k = 10), col = "#FAC55F", se = T, size = 1) +
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 10), col = "#FAC55F", 
+              se = T, size = 1, fill = "#FAC55F") +
   labs(
     x = "Range size (binned)",
     y = "Probability of being threatened"

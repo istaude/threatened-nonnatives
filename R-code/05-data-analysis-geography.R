@@ -96,15 +96,15 @@ map_data_pruned$Continent[map_data_pruned$ISO3_Code == "UMI"] <- "Oceania"      
 
 ggplot(map_data_pruned, aes(x = reorder(Country_Name, -ratio))) +
   facet_wrap(.~Continent, scale = "free_y")+
-    geom_col(aes(y = n), width = 0.7, fill = "#78c1b8") +
+    geom_col(aes(y = n), width = 0.7, fill = "#1D6774") +
     geom_point(aes(y = ratio * max(n), color = "Threatened Ratio")) +
-    geom_hline(yintercept = 0.29* max(map_data_pruned$n), lty = "dashed", col = "grey30") +
+    geom_hline(yintercept = 0.29* max(map_data_pruned$n), lty = "dashed", col = "#95846d") +
     scale_y_continuous(
       name = "# non-natives",
       sec.axis = sec_axis(~ . / max(map_data_pruned$n),
                           labels = scales::percent, name = "% threatened")
     ) +
-    scale_color_manual(name = "Threatened Ratio", values = c("Threatened Ratio" = "#FF6F61")) +
+    scale_color_manual(name = "Threatened Ratio", values = c("Threatened Ratio" = "#FAC55F")) +
     labs(x = "") +
     theme_minimal(base_family = "Arial Narrow", base_size = 13) +
     theme(

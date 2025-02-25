@@ -137,8 +137,8 @@ drl %>% group_by(Country, ISO3_Code, region_name, ISO2_Code) %>%
   ungroup() %>% 
   select(Country, ntimes, years) %>% distinct %>% 
   ggplot(aes(x = years, y = reorder(Country, years), group = Country)) +
-  geom_point(size = 2, color = "#FF6F61") +
-  geom_line(size = 0.7, color = "#FF6F61") +
+  geom_point(size = 2, color = "#FAC55F") +
+  geom_line(size = 0.7, color = "#FAC55F") +
   labs(x = "Year", y = "") +
   theme_minimal(base_family = "Arial Narrow", base_size = 13) +
   theme(panel.grid = element_blank())

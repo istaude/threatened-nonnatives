@@ -306,7 +306,7 @@ custom_theme <- theme_minimal(base_family = "Arial Narrow") +
   )
 
 # plot threatened species
-cc_threatened <- c("Red List data" = "#FF6F61")
+cc_threatened <- c("Red List data" = "#FAC55F")
 plot_threatened <- ggplot() +
   geom_sf(data = world_threatened, aes(fill = status), size = 0.1, col = NA) +
   scale_fill_manual(values = cc_threatened, name = "", na.value = "grey80") +
@@ -314,7 +314,7 @@ plot_threatened <- ggplot() +
   custom_theme
 
 # plot non-native species
-cc_non_native <- c("Naturalization data" = "#a3ffda")
+cc_non_native <- c("Naturalization data" = "#1D6774")
 plot_non_native <- ggplot() +
   geom_sf(data = world_non_native, aes(fill = status), size = 0.1, col = NA) +
   scale_fill_manual(values = cc_non_native, name = "", na.value = "grey80") +

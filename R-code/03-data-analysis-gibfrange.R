@@ -476,8 +476,8 @@ density_scaling_factor <- nrow(d) * 0.05
 # histogram
 d %>% 
   ggplot(aes(x = ratio)) +
-  geom_histogram(aes(y = after_stat(count)), fill = "#ff7062", binwidth = 0.05) + 
-  geom_density(aes(y = ..density.. * density_scaling_factor), color = "#06576D", size =0.3) + 
+  geom_histogram(aes(y = after_stat(count)), fill = "#FAC55F", binwidth = 0.05) + 
+  geom_density(aes(y = ..density.. * density_scaling_factor), color = "#95846d", size =0.3) + 
   #stat_ecdf(aes(y = ..y.. * max_count), geom = "step", color = "grey30") + 
   scale_y_continuous(
     position = "right"
@@ -485,7 +485,7 @@ d %>%
   scale_x_continuous(breaks = c(0.0, 0.25, 0.5, 0.75, 1), 
                      expand = c(0, 0),
                      labels = c(">0%", "25%", "50%", "75%", "100%")) +
-  labs(y ="No. of\nspecies", x = "Native AOO threatened (%)") +
+  labs(y ="No. of\nspecies", x = "Native range threatened (%)") +
   theme_minimal(base_family = "Arial Narrow", base_size = 13) +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.minor.x = element_blank(),
@@ -499,13 +499,13 @@ d %>%
     "segment", 
     x = 0.136, xend = 0.136, 
     y = 110, yend = 450, 
-    color = "#06576D", 
+    color = "#95846d", 
     size = 0.3, 
     linetype = "dotted", 
     arrow = arrow(length = unit(0.13, "cm"), type = "closed", angle = 35)  # Solid arrowhead
   ) +
   annotate("text", x = 0.136, y = 475, label = "Average range at risk (13.6%)", 
-           color = "#06576D", size = 4.5, family = "Arial Narrow", hjust = 0.1)
+           color = "#95846d", size = 4.5, family = "Arial Narrow", hjust = 0.1)
 
 ggsave("Figures/histogram.svg", height = 5, width = 5)
 
@@ -538,8 +538,8 @@ ma_slope_ci <- ma_mod$confidence.intervals[2, c("2.5%-Slope", "97.5%-Slope")]
 ma_intercept <- ma_mod$regression.results[ma_mod$regression.results$Method == "MA", "Intercept"]
 
 color_gradient <- scale_fill_gradientn(
-  colours = c('#c4e5c0', '#dbcaa8', '#ebaf8f', '#f79178', '#ff6f61'),
-  breaks = c(0.0, 0.25, 0.5, 0.75, 1),  # Breaks corresponding to the labels
+  colours = c('#fce0a9', '#fbce78', '#f9bc46', '#f8aa15'),
+  breaks = c(0.0, 0.25, 0.5, 0.75, 1),  
   na.value = "grey90"
 )
 
@@ -550,20 +550,19 @@ color_gradient <- scale_fill_gradientn(
     geom_point(alpha = 0.4, shape = 1, col = "white") +
     color_gradient +
     geom_abline(slope = 1, intercept = 1, col = "grey30", lty = "dashed", size = 0.3) +  # 1:1 line
-    geom_abline(slope = ma_slope, intercept = ma_intercept, color = '#06576D', size = 0.4) +  
+    geom_abline(slope = ma_slope, intercept = ma_intercept, color = '#95846d') +  
     scale_x_log10(limits = range_limit) +  
     scale_y_log10(limits = range_limit) +  
     scale_size_continuous(
-      name = "Native AOO threatened (%)",
-      labels = scales::percent_format(accuracy = 1)  # Convert to percentages
+      name = "Native range threatened (%)",
+      labels = scales::percent_format(accuracy = 1) 
     ) +
-    labs(x = 'AOO naturalized (km²)',
-         y = 'Native AOO threatened (km²)', tag = "a") + 
+    labs(x = 'Range naturalized (km²)',
+         y = 'Native range threatened (km²)', tag = "a") + 
     theme_minimal(base_family = "Arial Narrow", base_size = 13) +
     guides(
       size = guide_legend(
-        # No separate title in the legend
-        override.aes = list(fill = c('#c4e5c0', '#ebaf8f', '#f79178', '#ff6f61'), 
+        override.aes = list(fill = c('#fce0a9', '#fbce78', '#f9bc46', '#f8aa15'), 
                             alpha = 0.7, shape = 21, color = "white"),
         direction = "horizontal"
       ), 
@@ -575,11 +574,11 @@ color_gradient <- scale_fill_gradientn(
       panel.grid.minor.y = element_blank(),
       axis.text = element_text(size = 13),
       axis.title = element_text(size = 13),
-      legend.position = "top",  # Move the legend to the top
-      legend.direction = "horizontal",  # Arrange items horizontally
-      legend.box = "horizontal",  # Ensure horizontal box
-      legend.title = element_text(size = 12),  # Center the text above
-      legend.text = element_text(size = 11)  # Adjust size of legend text
+      legend.position = "top",  
+      legend.direction = "horizontal", 
+      legend.box = "horizontal",  
+      legend.title = element_text(size = 12),  
+      legend.text = element_text(size = 11)  
     )
 )
 
@@ -593,13 +592,13 @@ p1 <- d %>%
          new_range = native_area_km2 + nonnative_area_km2 - threatened_area_km2) %>% 
   ggplot(aes(x = rank, y = diff)) +
   geom_point(alpha = 0.4, shape = 1, col = "white") +
-  geom_line(aes(color = diff_sign), size = 0.8, alpha = 0.5) + 
+  geom_line(aes(color = diff_sign), size = 0.8, alpha = 1) + 
   geom_ribbon(aes(ymin = 0, ymax = diff, fill = diff_sign), alpha = 0.3) + 
   scale_x_continuous(expand = c(0, 0)) +
   scale_y_continuous(labels = scales::label_scientific()) +
-  scale_color_manual(values = c("positive" = "#06576D", "negative" = '#93003a')) + 
-  scale_fill_manual(values = c("positive" = "#06576D", "negative" = '#93003a')) +
-  labs(y = "AOO naturalized - threatened (km²)", tag = "b") +
+  scale_color_manual(values = c("positive" = "#C3C73C", "negative" = '#7C7AA9')) + 
+  scale_fill_manual(values = c("positive" = "#C3C73C", "negative" = '#7C7AA9')) +
+  labs(y = "Range naturalized - threatened (km²)", tag = "b") +
   theme_minimal(base_family = "Arial Narrow", base_size = 13) +
   theme(
     legend.position = "none",
@@ -612,12 +611,12 @@ p1 <- d %>%
     axis.title.x = element_blank(),
     plot.margin = unit(c(0,0,0,0), "cm")
   ) +
-  annotate("text", x = 0, y = Inf * 1.05, label = "Net increase", vjust = 1,
-           hjust = 0, size = 4, family = "Arial Narrow",
-           col = "#06576D") + 
-  annotate("text", x = Inf, y = Inf * 1.05, label = "Partial compensation", vjust = 1,
-           hjust = 1, size = 4, family = "Arial Narrow",
-           col = '#93003a') 
+  annotate("text", x = -1, y = Inf * 1.2, label = "Net increase", vjust = 1,
+           hjust = 0, size = 5, family = "Arial Narrow",
+           col = "#C3C73C") + 
+  annotate("text", x = Inf, y = Inf * 1.2, label = "Partial compensation", vjust = 1,
+           hjust = 1, size = 5, family = "Arial Narrow", 
+           col = '#7C7AA9') 
 
 p1
 
@@ -637,14 +636,15 @@ data <- data.frame(
 data$group <- factor(data$group, levels = c("Partial compensation", "Net increase"))
 # Create a stacked horizontal bar plot
 p2 <- ggplot(data, aes(x = 1, y = percentage, fill = group)) +
-  geom_bar(stat = "identity", col = "white", width = 1.5, alpha = 0.6) +
+  geom_bar(stat = "identity", col = "white", width = 1.5) +
   coord_flip() + 
   scale_y_continuous(expand = c(0, 0)) +
   scale_x_continuous(limits = c(0, 2.5)) +
-  scale_fill_manual(values = c("Net increase" = "#06576D", 
-                               "Partial compensation" = "#93003a")) + 
+  scale_fill_manual(values = c("Net increase" = "#C3C73C", 
+                               "Partial compensation" = "#7C7AA9")) + 
   geom_text(aes(label = paste0(percentage, "%")), family = "Arial Narrow",
-            position = position_stack(vjust = 0.5), size = 5, color = "white") +
+            position = position_stack(vjust = 0.5), size = 5, color = "white",
+            fontface = "bold") +
   labs(x = "", y = "") +
   theme_void() +
   theme(
@@ -653,13 +653,13 @@ p2 <- ggplot(data, aes(x = 1, y = percentage, fill = group)) +
     plot.margin = unit(c(0,0,0,0), "cm")
   )+
   annotate("text", x = 2.2, y = 0, label = "N = 1,716", 
-           hjust = 0, size = 4, family = "Arial Narrow", col = "grey40")
+           hjust = 0, size = 4, family = "Arial Narrow", col = "#95846d")
 
 
 p0/ p1 / p2 + plot_layout(heights = c(6, 6, 1))
 
 showtext_opts(dpi=600)
-ggsave("Figures/species_areas.png", dpi = 600, bg = "white", height = 7, width = 7)
+ggsave("Figures/species_areas.png", dpi = 600, bg = "white", height = 9, width = 8)
 showtext_opts(dpi=96)
 
 
@@ -673,15 +673,18 @@ d$mean_AOO <- (d$nonnative_area_km2 + d$threatened_area_km2) / 2
 d$difference_AOO <- d$nonnative_area_km2 - d$threatened_area_km2
 
 ggplot(d, aes(x = mean_AOO, y = difference_AOO)) +
-  geom_point(alpha = 0.5, col = "grey30") +
-  geom_hline(yintercept = 0, linetype = "dashed", color = "grey") +
-  labs(x = "Mean of naturalized and threatened AOO (km²)", 
-       y = "Difference (naturalized - threatened) AOO (km²)") +
+  geom_point(aes(color = difference_AOO > 0), alpha = 0.5) +  
+  geom_hline(yintercept = 0, linetype = "dashed", color = "#95846d") +
+  scale_color_manual(values = c("TRUE" = "#1D6774", "FALSE" = "#FFD700")) + 
+  labs(x = "Mean of naturalized and threatened range size (km²)", 
+       y = "Difference (naturalized - threatened) range size (km²)") +
   theme_minimal(base_family = "Arial Narrow", base_size = 13) +
   theme(
     legend.title = element_text(size = 12),
-    legend.text = element_text(size = 11)
+    legend.text = element_text(size = 11),
+    legend.position = "none"  # Remove legend if unnecessary
   )
+
   
 showtext_opts(dpi=600)
 ggsave("Figures/bland-altman.png", dpi = 600, bg = "white", height = 6, width = 6)
